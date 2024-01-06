@@ -1,2 +1,6 @@
+1.0.1 [06-01-2024]:
+ - Aggiornata la traduzione all'ultima versione della patch per Minagoroshi di 07th-Mod (commit 8df8e1d9ba8ede6c99770bbeb8609589b4328867 del 15-08-2023)
+ - Corretti vari errori
+
 1.0.0 [27-05-2023]:
  - Prima release pubblica!
