@@ -2778,7 +2778,7 @@ void main()
 		   NULL, "Chissà se riuscirei a prendere la bambola di Kenta-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "org/rena6002", 256, TRUE);
 	OutputLine(NULL, "フライドチキン屋さんに５万円持ってったら売ってくれないかなぁ！",
-		   NULL, " Secondo te me la venderebbero se dicessi al negozio di pollo fritto che pagherei la 50,000 yen?", Line_WaitForInput);
+		   NULL, " Secondo te me la venderebbero se dicessi al negozio di pollo fritto che la pagherei 50,000 yen?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "org/rena6003", 256, TRUE);
 	OutputLine(NULL, "　はぅ。」",
 		   NULL, " Hau.\"", Line_Normal);
