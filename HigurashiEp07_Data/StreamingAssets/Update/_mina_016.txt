@@ -199,10 +199,10 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500738", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6025", 256, TRUE);
 	OutputLine(NULL, "「…冷たく言えば、奇跡を起こせない非は沙都子にある。",
 		   NULL, "\"... mi duole ammetterlo, ma è Satoko a impedirci di ottenere un miracolo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps2/05/180500739", 540, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6026", 256, TRUE);
 	OutputLine(NULL, "そもそも、さっきから圭一や入江が向こうとやり合っている最大の争点は、沙都子が虐待を認めたかどうか。」",
 		   NULL, " Come hanno detto anche Irie e Keiichi, non cambierà nulla finché non sarà lei stessa a chiedere aiuto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -222,10 +222,10 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500740", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6027", 256, TRUE);
 	OutputLine(NULL, "「沙都子を救おうとみんなが手を伸ばしているのに、沙都子がその手を掴もうとせず、沼にどんどん沈んでいく。",
 		   NULL, "\"Stiamo muovendo mari e monti per riuscire a salvarla, eppure lei stessa non desidera essere aiutata.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500741", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6028", 256, TRUE);
 	OutputLine(NULL, "……そうやって考えると、相談所に訴える前に、一番訴えるべきは沙都子じゃないかって思う。」",
 		   NULL, " ... avrebbero dovuto cercare di persuaderla di più prima di venire qui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1226,10 +1226,10 @@ void main()
 	ModDrawCharacterWithFiltering(2, 2, "sprite/re1a_nande_a1_", "2", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps2/02/180200529", 540, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6073", 256, TRUE);
 	OutputLine(NULL, "「相変わらず平行線？",
 		   NULL, "\"Ancora nessun accordo?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 2, "ps2/02/180200530", 540, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6074", 256, TRUE);
 	OutputLine(NULL, "　慎重に様子を見るからとか、そういう話に…？」",
 		   NULL, " Hanno detto che approfondiranno la questione...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1239,10 +1239,10 @@ void main()
 	ModDrawCharacterWithFiltering(1, 10, "sprite/iri1_majime_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000259", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6032", 256, TRUE);
 	OutputLine(NULL, "「そんなところです。",
 		   NULL, "\"Più o meno.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000260", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6033", 256, TRUE);
 	OutputLine(NULL, "週１の訪問で様子を見て大体、一ヵ月後に改めて判断をするというような話なのですが…。」",
 		   NULL, " Hanno deciso di andare a far loro visita una volta a settimana e di pronunciarsi entro un mese di tempo...\"", Line_Normal);
 	ClearMessage();
@@ -1252,10 +1252,10 @@ void main()
 	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_ikari_a1_", "2", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps2/06/180600291", 540, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6102", 256, TRUE);
 	OutputLine(NULL, "「あの叔父のところに沙都子を一ヶ月も閉じ込めろって言うんですか？！",
 		   NULL, "\"Vuoi dire che la lasceranno chiusa con suo zio per un mese intero?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps2/06/180600292", 540, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6103", 256, TRUE);
 	OutputLine(NULL, "　その一ヶ月間で沙都子の心がどれだけ傷付けられるか、どうしてその痛みが理解できないんです！」",
 		   NULL, " Come accidenti fanno a non capire che Satoko sarà già andata in mille pezzi durante questo lasso di tempo?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1264,13 +1264,13 @@ void main()
 	ModDrawCharacter(1, 10, "sprite/iri1_majime2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000261", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6034", 256, TRUE);
 	OutputLine(NULL, "「もちろん、その点についても前原さんは懸命に説明してくれました。",
 		   NULL, "\"Maebara-san ha spiegato fin nel dettaglio il pericolo che sta affrontando.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000262", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6035", 256, TRUE);
 	OutputLine(NULL, "私も、沙都子ちゃんの去年の状況を説明したつもりです…。",
 		   NULL, " Io ho persino riportato la mia esperienza dell'anno scorso.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000263", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6036", 256, TRUE);
 	OutputLine(NULL, "ですが………。」",
 		   NULL, " Tuttavia...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1280,7 +1280,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 2, "sprite/re1a_komaru_a1_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps2/02/180200531", 540, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6075", 256, TRUE);
 	OutputLine(NULL, "「……沙都子ちゃんが助けを求めない限り、…緊急性はない？」",
 		   NULL, "\"... non reputeranno il caso urgente finché non sarà Satoko-chan a chiedere aiuto...?\"", Line_Normal);
 	ClearMessage();
@@ -1289,10 +1289,10 @@ void main()
 	ModDrawCharacterWithFiltering(2, 8, "sprite/tomi1_komaru_", "2", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps2/08/180800120", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6014", 256, TRUE);
 	OutputLine(NULL, "「部外者の意見で恐縮だけど…。",
 		   NULL, "\"Scusate se mi intrometto...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800121", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6015", 256, TRUE);
 	OutputLine(NULL, "沙都子ちゃんに助けを求めてもらうってのは…無理なのかい？」",
 		   NULL, " ma voi non potete convincere Satoko-chan a chiedere aiuto?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1301,10 +1301,10 @@ void main()
 	ModDrawCharacterWithFiltering(1, 9, "sprite/ta1_akuwarai_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900268", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6071", 256, TRUE);
 	OutputLine(NULL, "「………沙都子ちゃんが逃げ出したら、悟史くんの部屋のものを捨ててしまうと脅されてるらしいわ。",
 		   NULL, "\"...... quell'uomo ha detto che si sbarazzerà delle cose di Satoshi-kun se cercherà di andarsene.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900269", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6072", 256, TRUE);
 	OutputLine(NULL, "酷い話ね。」",
 		   NULL, " Che demonio.\"", Line_Normal);
 	ClearMessage();
@@ -1314,10 +1314,10 @@ void main()
 	ModDrawCharacter(0, 3, "sprite/me1a_tohoho_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/180300483", 540, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6116", 256, TRUE);
 	OutputLine(NULL, "「相変わらず向こうはその一点張りなのぉ？！",
 		   NULL, "\"Anche oggi un buco nell'acqua?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps2/03/180300484", 540, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6117", 256, TRUE);
 	OutputLine(NULL, "　沙都子は助けを求められない負い目があるってのに…！」",
 		   NULL, " Satoko non può chiedere aiuto perché è vittima di un ricatto...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2310,16 +2310,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101193", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6237", 256, TRUE);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Esatto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101194", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6238", 256, TRUE);
 	OutputLine(NULL, "相談所が腰を上げるまで、どこまでも戦うのが仲間の務めですから。",
 		   NULL, " Il nostro obiettivo è continuare a combattere finché non salveremo Satoko.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101195", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6239", 256, TRUE);
 	OutputLine(NULL, "今日ほど集まるかはわかりませんが、明日もまた集まろうとみんなに言ってあります。",
 		   NULL, " Dubito che verranno tante persone quante oggi, ma ci torneremo lo stesso.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101196", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6240", 256, TRUE);
 	OutputLine(NULL, "な、だよな魅音。」",
 		   NULL, " Vero, Mion?\"", Line_Normal);
 	ClearMessage();
@@ -2452,7 +2452,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101200", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6241", 256, TRUE);
 	OutputLine(NULL, "「教育委員会とか、そういう辺りから、何かの圧力が掛かったってわけか。」",
 		   NULL, "\"Il comitato educativo locale le sta mettendo pressioni?\"", Line_Normal);
 	ClearMessage();
@@ -2461,14 +2461,14 @@ void main()
 	ModDrawCharacter(2, 3, "sprite/me1a_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300500", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6118", 256, TRUE);
 	OutputLine(NULL, "「……知恵先生は圧力なんかに屈する人じゃない。",
 		   NULL, "\"...... Chie-sensei non è una che si piega facilmente.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300501", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6119", 256, TRUE);
 	OutputLine(NULL, "圭ちゃんは知恵先生がどれだけ正義心に溢れる人か知らないだろうね。",
 		   NULL, " Sai anche tu quanto sia determinata a fare la cosa giusta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/mio082003", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6120", 256, TRUE);
 	OutputLine(NULL, "かつて、この分校が分校と認められず、単なる廃校の校舎でしかなかった時、知恵先生は教育委員会を無視してやって来てくれて私たちの先生になってくれた。」",
 		   NULL, "Non ascoltò una sola parola del comitato quando decise di venire a insegnare qui, alla scuola di Hinamizawa, che ancora non era stata approvata dal governo.\"", Line_Normal);
 	ClearMessage();
@@ -3681,13 +3681,13 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101242", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6245", 256, TRUE);
 	OutputLine(NULL, "「………ってことはだ。",
 		   NULL, "\"... in questo caso...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/kei082002", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6246", 256, TRUE);
 	OutputLine(NULL, "つまり、一番悪ぃのは、相談所じゃなくて。",
 		   NULL, " non possiamo dare la colpa ai servizi sociali.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101244", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6247", 256, TRUE);
 	OutputLine(NULL, "どうやらこの村丸ごとってことになりそうだな。」",
 		   NULL, " È l'intero villaggio a doverne rispondere.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3710,17 +3710,17 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101245", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6248", 256, TRUE);
 	OutputLine(NULL, "「カビた畳か。",
 		   NULL, "\"Un tatami ammuffito, eh?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101246", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6249", 256, TRUE);
 	OutputLine(NULL, "上だけ拭いたって無駄だよな。",
 		   NULL, " Non basta pulirlo in superficie...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101247", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6250", 256, TRUE);
 	OutputLine(NULL, "…俺たちが相談所に訴えて、仮に沙都子が救われてもそいつは一時しのぎにしかならなかったらしい。",
 		   NULL, " sarebbe solo una soluzione temporanea, esattamente come ricorrere ai servizi sociali.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101248", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6251", 256, TRUE);
 	OutputLine(NULL, "……どうやら、畳の根元から腐ったヤツを根こそぎ引きずり出してやらなきゃならねぇようだな。」",
 		   NULL, "Non ci rimane altro da fare se non buttare via questo vecchio tatami e trovarne uno nuovo.\"", Line_Normal);
 	ClearMessage();

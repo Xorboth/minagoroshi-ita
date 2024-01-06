@@ -697,16 +697,16 @@ void main()
 	ModDrawCharacter(1, 11, "sprite/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700110", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6000", 256, TRUE);
 	OutputLine(NULL, "「うーー…ん。",
 		   NULL, "\"Uhm...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700111", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6001", 256, TRUE);
 	OutputLine(NULL, "私も児童相談所に対応をお願いするのがベストだと思っています。」",
 		   NULL, " anche secondo me l'idea migliore è rivolgersi ai servizi sociali.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180100981", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6191", 256, TRUE);
 	OutputLine(NULL, "「じゃあ…大石さんも何かあるまで沙都子を救う方法はないと仰るんですか？！」",
 		   NULL, "\"Ma allora... credi davvero che non possiamo aiutarla finché non succederà qualcosa di brutto?!\"", Line_Normal);
 	ClearMessage();
@@ -715,14 +715,14 @@ void main()
 	ModDrawCharacter(1, 11, "sprite/oisi1_4_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700112", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6002", 256, TRUE);
 	OutputLine(NULL, "「………同じ相談が警察にあったら、…せいぜい訪問してご家族の仲をよくするよう指導するのが関の山です。",
 		   NULL, "\"Anche la polizia agirebbe allo stesso modo... prima una visita e poi un avvertimento...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700113", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6003", 256, TRUE);
 	OutputLine(NULL, "しかも、専門の相談所さんに比べたら稚拙なものだろうと思います。",
 		   NULL, " ma sono sicuro che un assistente sociale esperto saprà fare un lavoro migliore di così.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700114", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6004", 256, TRUE);
 	OutputLine(NULL, "餅は餅屋に任せた方がいいだろうと思いますねぇ。」",
 		   NULL, "Loro se la cavano meglio di noi in casi di maltrattamenti.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -731,10 +731,10 @@ void main()
 	ModDrawCharacter(2, 10, "sprite/iri1_majime2_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000227", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6027", 256, TRUE);
 	OutputLine(NULL, "「警察は事実上、何かがあった後にしか動けませんが、",
 		   NULL, "\"La polizia può agire soltanto dopo che qualcosa è successo...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000228", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6028", 256, TRUE);
 	OutputLine(NULL, "児童相談所は、何かある前に動くことが出来る分、警察より優れている…ということですか。」",
 		   NULL, " ma i servizi sociali per l'infanzia possono occuparsene in anticipo...\"", Line_Normal);
 	ClearMessage();
@@ -743,10 +743,10 @@ void main()
 	ModDrawCharacter(1, 11, "sprite/oisi1_2_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700115", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6005", 256, TRUE);
 	OutputLine(NULL, "「なっはっは…。",
 		   NULL, "\"Nahahah...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700116", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6006", 256, TRUE);
 	OutputLine(NULL, "…何か起こす前に逮捕できりゃ我々も楽な商売なんですがね。",
 		   NULL, " sarebbe bello se potessimo arrestare i criminali prima che compiano il fatto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -755,10 +755,10 @@ void main()
 	ModDrawCharacter(1, 11, "sprite/oisi1_1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700117", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6007", 256, TRUE);
 	OutputLine(NULL, "……一般的に、強い権力が与えられている官庁ほど、それを発動するのに慎重です。",
 		   NULL, "... tuttavia, arrestare una persona è una questione che necessita di una grande attenzione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700118", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6008", 256, TRUE);
 	OutputLine(NULL, "濫用されたらたまらないですからね。」",
 		   NULL, " Non vogliamo certo perdere il lavoro.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -768,7 +768,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 3, "sprite/me2_tohoho_a1_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/180300434", 540, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6104", 256, TRUE);
 	OutputLine(NULL, "「…それを言われると、沙都子の件をもうしばらく様子見をしたいという相談所の対応は、不適切ではないってことになっちゃうんだけどね。」",
 		   NULL, "\"... in un certo senso, dire di poter aiutare Satoko soltanto dopo aver valutato la situazione e aspettato gli sviluppi non è poi così assurdo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -788,10 +788,10 @@ void main()
 	ModDrawCharacterWithFiltering(2, 11, "sprite/oisi1_4_", "1", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081801", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6009", 256, TRUE);
 	OutputLine(NULL, "「個人的には、児童相談所の対応がそんなに逸脱して不適切とは思いません。",
 		   NULL, "\"Personalmente, non credo che i servizi sociali siano stati poi così irragionevoli.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700120", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6010", 256, TRUE);
 	OutputLine(NULL, "ただ、沙都子さんと鉄平さんの関係をよく知る皆さんから見ると、それが悠長に見えるという、そういうことだろうと思います。」",
 		   NULL, " Ciononostante, dal punto di vista di coloro che conoscono sia Satoko-san che Teppei-san, sembra quasi che vogliano lavarsene le mani.\"", Line_Normal);
 	ClearMessage();
@@ -838,13 +838,13 @@ void main()
 	ModDrawCharacterWithFiltering(0, 10, "sprite/iri1_majime_", "2", "maskleft", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000229", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6029", 256, TRUE);
 	OutputLine(NULL, "「わかりません。",
 		   NULL, "\"Non saprei...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000230", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6030", 256, TRUE);
 	OutputLine(NULL, "……ただ、それでもなお沙都子ちゃんを登校させないというのであれば、さすがに相談所も重い腰を上げるでしょう。",
 		   NULL, " però i servizi sociali interverranno di sicuro se continuerà a tenerla a casa nonostante la loro telefonata.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000231", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6031", 256, TRUE);
 	OutputLine(NULL, "相談所もその点は強く指導すると思います。」",
 		   NULL, " A quel punto sì che ci metteranno più enfasi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1028,7 +1028,7 @@ void main()
 	DrawSceneWithMask( "background/js4_02", "maskright", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300446", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6105", 256, TRUE);
 	OutputLine(NULL, "「あー、あの不審者は放っておこう。",
 		   NULL, "\"Ah, lasciamo perdere quel maniaco.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1037,7 +1037,7 @@ void main()
 	ModDrawCharacter(2, 3, "sprite/me2_def_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/mio081801", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6106", 256, TRUE);
 	OutputLine(NULL, "…じゃあ、大石のおじさま的には、児童相談所に任せて様子見する他ないって見解ですか？」",
 		   NULL, "Ooishi-san... credi davvero che non ci rimanga altra scelta se non affidarci ai servizi sociali?\"", Line_Normal);
 	ClearMessage();
@@ -1046,17 +1046,17 @@ void main()
 	ModDrawCharacterWithFiltering(1, 11, "sprite/oisi1_4_", "1", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700126", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6011", 256, TRUE);
 	OutputLine(NULL, "「それが現実的だと思いますなぁ…。",
 		   NULL, "\"Credo che sia il piano più realizzabile...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700127", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6012", 256, TRUE);
 	OutputLine(NULL, "世の中にはちゃんと踏まなければならない手順というのがあります。",
 		   NULL, " voglio dire, al mondo ci sono alcuni passaggi che siamo costretti a seguire.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700128", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6013", 256, TRUE);
 	OutputLine(NULL, "おしっこする時、まずはおトイレに行って、便器の前に立ってチャックを開ける。",
 		   NULL, " Quando si tratta di pisciare, prima si va davanti al water e poi si tira giù la zip.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700129", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6014", 256, TRUE);
 	OutputLine(NULL, "その手順をちゃんとやらなければ大変なことになってしまうのと同じです。」",
 		   NULL, "Se non segui quest'ordine, può diventare un guaio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1065,10 +1065,10 @@ void main()
 	ModDrawCharacter(2, 3, "sprite/me2_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300448", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6107", 256, TRUE);
 	OutputLine(NULL, "「なんちゅー例えですか。",
 		   NULL, "\"Che brutto esempio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300449", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6108", 256, TRUE);
 	OutputLine(NULL, "下品親父〜。」",
 		   NULL, " Razza di vecchio schifoso〜.\"", Line_Normal);
 	ClearMessage();
@@ -1613,20 +1613,20 @@ void main()
 	ModDrawCharacterWithFiltering(0, 11, "sprite/oisi1_4_", "1", "maskright", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700162", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6015", 256, TRUE);
 	OutputLine(NULL, "「相談所への陳情ですか？」",
 		   NULL, "\"Ti riferisci al centro di ascolto?\"", Line_Normal);
 	ClearMessage();
 	ModPlayBGM( 1, "yoru", 28, 0, 1 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101005", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6192", 256, TRUE);
 	OutputLine(NULL, "「えぇ。",
 		   NULL, "\"Sì.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101006", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6193", 256, TRUE);
 	OutputLine(NULL, "沙都子を助けるという決定が出されるまで、戦い続けるつもりです。",
 		   NULL, " Combatterò finché non si inventeranno qualcosa per salvare Satoko.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101007", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6194", 256, TRUE);
 	OutputLine(NULL, "継続は力なりって言いますし、…俺たちにはこれしか戦う方法が残ってないんで。」",
 		   NULL, " La costanza è la base... e l'unico modo in cui possiamo contrattaccare.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1640,23 +1640,23 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700163", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6016", 256, TRUE);
 	OutputLine(NULL, "「……相談所の方には、昨日今日で充分意思が伝わっていると思います。",
 		   NULL, "\"... credo che ormai i servizi sociali abbiano compreso il vostro punto di vista.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700164", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6017", 256, TRUE);
 	OutputLine(NULL, "物事には限度ってもんがあるでしょう。",
 		   NULL, " Ricorda che c'è sempre un limite.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700165", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6018", 256, TRUE);
 	OutputLine(NULL, "喧嘩もほどほどの引き際が肝心です。",
 		   NULL, " Ed è importante riconoscere quando tirarsi indietro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700166", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6019", 256, TRUE);
 	OutputLine(NULL, "やり過ぎると、かえってややこしくなることもありますよ。」",
 		   NULL, "Fare il passo più lungo della gamba rischia di complicarvi le cose.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101008", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6195", 256, TRUE);
 	OutputLine(NULL, "「でも、…沙都子を見殺しにはできません。」",
 		   NULL, "\"Ma... non posso abbandonare Satoko.\"", Line_Normal);
 	ClearMessage();
@@ -1665,22 +1665,22 @@ void main()
 	ModDrawCharacter(0, 11, "sprite/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700167", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6020", 256, TRUE);
 	OutputLine(NULL, "「そりゃそうです。",
 		   NULL, "\"Certo che no.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700168", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6021", 256, TRUE);
 	OutputLine(NULL, "相談所だって見殺しにはしませんよ。",
 		   NULL, " E nemmeno i servizi sociali vogliono che succeda.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700169", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6022", 256, TRUE);
 	OutputLine(NULL, "きっと助けてくれます。」",
 		   NULL, " L'aiuteranno.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101009", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6196", 256, TRUE);
 	OutputLine(NULL, "「助けてはくれるでしょうが、…多分、それは虐待が起こった後です。",
 		   NULL, "\"Sì, ma soltanto dopo che le sarà successo qualcosa.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101010", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6197", 256, TRUE);
 	OutputLine(NULL, "沙都子の心に消せない傷が刻まれた後では遅すぎるんです。」",
 		   NULL, " Una volta che avrà subìto un trauma irreversibile, sarà troppo tardi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1749,10 +1749,10 @@ void main()
 	DrawSceneWithMask( "background/js4_02", "maskright", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081802", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6023", 256, TRUE);
 	OutputLine(NULL, "「いえね、実は…。",
 		   NULL, "\"Il fatto è che...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081803", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6024", 256, TRUE);
 	OutputLine(NULL, "…………もう充分に相談所に意見は伝えたんですから、明日までやらなくてもいいんじゃないかなぁって、私ゃそう思うんです。」",
 		   NULL, " secondo me non c'è bisogno che andiate dai servizi sociali anche domani. Avete già chiarito cosa volete da loro.\"", Line_Normal);
 	ClearMessage();
@@ -1838,25 +1838,28 @@ void main()
 	ModDrawCharacter(0, 11, "sprite/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700182", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6025", 256, TRUE);
 	OutputLine(NULL, "「児童相談所はですね、",
 		   NULL, "\"Cosa credi che stiano pensando al centro di ascolto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700183", 540, TRUE);
-	OutputLine(NULL, "二日連続で来た上に、今日は２０人。",
-		   NULL, " Vi siete presentati due volte di fila e con più di venti persone.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700184", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6026", 256, TRUE);
+	OutputLine(NULL, "二日連続で来た上に、",
+		   NULL, " Vi siete presentati due volte di fila", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "org/ooishi6027", 256, TRUE);
+	OutputLine(NULL, "今日は２０人。",
+		   NULL, " e con più di venti persone.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "org/ooishi6028", 256, TRUE);
 	OutputLine(NULL, "しかも話し合いは物別れに終わったので、きっと明日も大人数で来るだろうと怖がってます。」",
 		   NULL, " Si staranno pur immaginando che tornerete domani con ancora più gente, giusto?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101017", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6198", 256, TRUE);
 	OutputLine(NULL, "「はは。",
 		   NULL, "\"Ahah.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101018", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6199", 256, TRUE);
 	OutputLine(NULL, "そこまで分かってるならどうして俺たちの言い分を聞いてくれないんだ。",
 		   NULL, " Lo facciamo solo perché non ci hanno ascoltato a dovere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101019", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6200", 256, TRUE);
 	OutputLine(NULL, "……まさか、俺たちが入れないように入口にバリケードでも築くってわけじゃないですよね？」",
 		   NULL, " Spero che non si mettano a costruire una barricata per impedirci di entrare!\"", Line_Normal);
 	ClearMessage();
@@ -1865,32 +1868,32 @@ void main()
 	ModDrawCharacter(0, 11, "sprite/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700185", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6029", 256, TRUE);
 	OutputLine(NULL, "「いえいえまさかまさか。",
 		   NULL, "\"No, figuriamoci.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700186", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6030", 256, TRUE);
 	OutputLine(NULL, "お役所は陳情を受けるところです。",
 		   NULL, " Ascoltare è il loro mestiere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700187", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6031", 256, TRUE);
 	OutputLine(NULL, "どのような意見であれ、陳情に来てくれる方を受け容れます。",
 		   NULL, " Chiunque abbia qualcosa da dire riceverà il medesimo trattamento.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700188", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6032", 256, TRUE);
 	OutputLine(NULL, "ですから、相談所側は前原さんが何度来ようとも拒めません。",
 		   NULL, " Non possono impedirvi di accedere, nemmeno se tornate ogni giorno.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700189", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6033", 256, TRUE);
 	OutputLine(NULL, "そしてそれは向こうも覚悟しています。",
 		   NULL, " Sono pronti a questa evenienza.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700190", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6034", 256, TRUE);
 	OutputLine(NULL, "だからですね、前原さんがこれ以上の大人数で押し掛けてきて、大きなトラブルにならない内にちゃんと沈静化を図りたいと思っているようです。」",
 		   NULL, "E quindi sanno anche di doversi occupare del vostro caso prima che portiate ancor più persone per combinare guai.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101020", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6201", 256, TRUE);
 	OutputLine(NULL, "「それは…！",
 		   NULL, "\"Ma allora...!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101021", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6202", 256, TRUE);
 	OutputLine(NULL, "　沙都子を助け出す判断を早期に出してくれるという意味ですか？！」",
 		   NULL, " Significa che hanno già deciso di aiutare Satoko?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1899,16 +1902,16 @@ void main()
 	ModDrawCharacter(0, 11, "sprite/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081804", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6035", 256, TRUE);
 	OutputLine(NULL, "「少し違います。",
 		   NULL, "\"Non proprio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081805", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6036", 256, TRUE);
 	OutputLine(NULL, "あなたがこれ以上押し掛けてこないよう、水面下調整を開始したということです。」",
 		   NULL, " Diciamo che stanno preparando delle contromisure per far sì che non possiate mettergli ulteriore pressione...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101022", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6202_180101022", 256, TRUE);
 	OutputLine(NULL, "「な、何ですかそれ……？！」",
 		   NULL, "\"I-In che senso...?!\"", Line_Normal);
 	ClearMessage();
@@ -1930,23 +1933,23 @@ void main()
 	DrawScene( "background/js4_02", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700193", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6037", 256, TRUE);
 	OutputLine(NULL, "「お役所もですね、ヤクザとちょっと似てるところがありまして。",
 		   NULL, "\"Quegli agenti del governo a volte si comportano un po' da yakuza.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700194", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6038", 256, TRUE);
 	OutputLine(NULL, "代紋を舐められたくないんですよ。",
 		   NULL, " Non vogliono che qualcuno manchi loro di rispetto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700195", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6039", 256, TRUE);
 	OutputLine(NULL, "自分たちの決定を覆すような敵対意見には耳を貸さないのが普通です。",
 		   NULL, " È normale che ignorino le opinioni altrui in merito a decisioni già prese.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700196", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6040", 256, TRUE);
 	OutputLine(NULL, "例え役所が間違っていることに気付いてもね。」",
 		   NULL, "Anche se sanno di essere palesemente nel torto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101023", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6203", 256, TRUE);
 	OutputLine(NULL, "「……住民に一度でも屈すると、言えば負かせると思った人たちが他にも殺到してくるから…？」",
 		   NULL, "\"...... e che quindi, se ce la danno vinta, rischiano di ritrovarsi con altri ricorsi a cui dare ragione...?\"", Line_Normal);
 	ClearMessage();
@@ -1955,10 +1958,10 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700197", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6041", 256, TRUE);
 	OutputLine(NULL, "「そんなとこです。",
 		   NULL, "\"Proprio così.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700198", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6042", 256, TRUE);
 	OutputLine(NULL, "なっはっは、舐められたらおしまいな稼業なんですよ。",
 		   NULL, " Nahahah, nessuno deve mettersi contro al loro giudizio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1967,33 +1970,33 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700199", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6043", 256, TRUE);
 	OutputLine(NULL, "…だから、役人は陳情を聞きはしますが、よっぽどのことがない限り自分たちの方針を変更したりはしません。",
 		   NULL, "Ascolteranno il reclamo, certo, ma non cambieranno mai atteggiamento a meno che non ci sia qualcosa di strano sotto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700200", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6044", 256, TRUE);
 	OutputLine(NULL, "しかも今回の沙都子さんの件は、相談所的には際立って特殊なケースではありません。",
 		   NULL, "In fondo, ai loro occhi il caso di Satoko-san non è niente di speciale o per cui valga la pena approfondire.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700201", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6045", 256, TRUE);
 	OutputLine(NULL, "親権者が子どもを連れ戻すのは民法に定められた親の当然の権利ですからね。",
 		   NULL, " Costringere sua nipote a vivere insieme a lui è perfettamente lecito visto che ne è il tutore.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700202", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6046", 256, TRUE);
 	OutputLine(NULL, "例えば離婚した父母が、相手の許に行った我が子を連れ戻したりとか、そういうややこしいことに比べたら、",
 		   NULL, "Non si tratta del caso contrario, in cui è un genitore privo della custodia a obbligare il figlio a vivere con lui.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700203", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6047", 256, TRUE);
 	OutputLine(NULL, "唯一の肉親がよりを戻し、慎ましやかに生活している現在の状況は、特別異常なことではないんです。」",
 		   NULL, " Quell'uomo è l'unico con cui ha un legame di sangue. Non c'è niente che gli impedisca di vivere insieme a lei.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101024", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6204", 256, TRUE);
 	OutputLine(NULL, "「でも、それは沙都子の叔父には当てはまりません。",
 		   NULL, "\"Ma tra Satoko e suo zio è più complicato di così.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101025", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6205", 256, TRUE);
 	OutputLine(NULL, "大石さんだって知ってるでしょう？！",
 		   NULL, " Lo sai benissimo anche tu, Ooishi-san!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101026", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6206", 256, TRUE);
 	OutputLine(NULL, "　あいつがどんなに乱暴で去年の沙都子を虐めていたか！」",
 		   NULL, " Sai tutto degli abusi che ha dovuto subire l'anno scorso!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2002,23 +2005,23 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700204", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6048", 256, TRUE);
 	OutputLine(NULL, "「去年の話です。",
 		   NULL, "\"L'anno scorso, esatto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700205", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6049", 256, TRUE);
 	OutputLine(NULL, "それを反省するって頭を下げられたら、相談所側も強くは言えません。",
 		   NULL, " I servizi sociali per l'infanzia non possono farci nulla se lui dice di essere pentito di ciò che ha fatto allora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700206", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6050", 256, TRUE);
 	OutputLine(NULL, "そして何よりも、沙都子さん自身が虐待はないと否定しちゃってるんですから。」",
 		   NULL, "Inoltre, è stata Satoko-san in persona a dire che non è mai stata maltrattata.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101027", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6207", 256, TRUE);
 	OutputLine(NULL, "「く……、沙都子は去年、兄に甘えて負担を掛け過ぎたことを深く後悔しているんです。",
 		   NULL, "\"Gh... questo perché Satoko lasciò tutto in mano a suo fratello un anno fa, mentre adesso vuole affrontare i problemi da sola.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101028", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6208", 256, TRUE);
 	OutputLine(NULL, "だからあいつの中では、虐待に対して助けを求める行為は、兄に対する裏切りに感じるみたいなんですよ…！」",
 		   NULL, " Dal suo punto di vista, chiedere aiuto sarebbe come tradire il giuramento che ha stretto con lui...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2027,20 +2030,20 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700207", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6051", 256, TRUE);
 	OutputLine(NULL, "「…なるほどねぇ…。",
 		   NULL, "\"... capisco...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700208", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6052", 256, TRUE);
 	OutputLine(NULL, "確かにそれを相談所に説明するのは難しいですね。",
 		   NULL, " convincere il centro di ascolto sarà molto difficile.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700209", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6053", 256, TRUE);
 	OutputLine(NULL, "……まぁとにかくそんなわけで、相談所にとっては前原さんたちにどうしてここまで噛み付かれなければならないのかわからないんですよ。」",
 		   NULL, "... in ogni caso, è per tutti i motivi che ti ho detto che i servizi sociali non capiscono per quale ragione stiate insistendo così tanto.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101029", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6209", 256, TRUE);
 	OutputLine(NULL, "「だから、鉄平は乱暴な男で、あいつのところに沙都子を置いておいたら、大変なことになると訴えてるんです！」",
 		   NULL, "\"Perché vogliamo che capiscano che quel Teppei è un uomo violento, che ha abbandonato Satoko e che non deve rimanere insieme a lei!\"", Line_Normal);
 	ClearMessage();
@@ -2049,16 +2052,16 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_5_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700210", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6054", 256, TRUE);
 	OutputLine(NULL, "「どうしてです。",
 		   NULL, "\"Come mai dici così?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700211", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6055", 256, TRUE);
 	OutputLine(NULL, "……こう言っちゃ失礼だが、前原さんは去年は雛見沢におられませんでしたよねぇ？",
 		   NULL, " Perdona la sfacciatezza, Maebara-san, ma un anno fa neanche abitavi a Hinamizawa.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700212", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6056", 256, TRUE);
 	OutputLine(NULL, "　鉄平さんについてそう詳しくご存知とは思えない。",
 		   NULL, " Non penso tu sappia molto di Teppei-san.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700213", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6057", 256, TRUE);
 	OutputLine(NULL, "…にもかかわらず、どうしてそこまで鉄平さんを危険視できるんですかねぇ？」",
 		   NULL, " Perché mai credi che sia così pericoloso come dicono?\"", Line_Normal);
 	ClearMessage();
@@ -2143,21 +2146,21 @@ void main()
 	DrawSceneWithMask( "background/js4_02", "maskup", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700214", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6058", 256, TRUE);
 	OutputLine(NULL, "「……さっきもちょっと例を出しましたが、離婚した夫婦が相手の親権喪失を訴える争いというのがあるんですよ。",
 		   NULL, "\"Te ne ho già parlato poco fa, ma a volte le coppie divorziate ricorrono a ogni mezzo per ottenere la custodia sui figli.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700215", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6059", 256, TRUE);
 	OutputLine(NULL, "相手が訴えることもありますし、親類が訴えることもあります。",
 		   NULL, " Un coniuge denuncia l'altro, e spesso sono i familiari stessi a peggiorare le cose.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700216", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6060", 256, TRUE);
 	OutputLine(NULL, "中には子どものための訴えではなく、相手が嫌いで貶めるのが目的での訴えもあります。",
 		   NULL, "Qualcuno decide persino di intraprendere battaglie legali solo perché detesta il suo ex-partner.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700217", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6061", 256, TRUE);
 	OutputLine(NULL, "今回のケースはそれにも似てるんです。",
 		   NULL, " Questo caso è simile, in un certo senso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700218", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6062", 256, TRUE);
 	OutputLine(NULL, "前原さんは、北条鉄平を私的に嫌っていて、悪意で親権喪失のための活動をしているようにも見えちゃうんですなぁ。",
 		   NULL, "Sembra che stiate portando avanti questa storia soltanto perché provate del rancore personale nei confronti di Teppei Houjou.", Line_Normal);
 	ClearMessage();
@@ -2166,36 +2169,36 @@ void main()
 	ModDrawCharacter(0, 11, "sprite/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700219", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6063", 256, TRUE);
 	OutputLine(NULL, "　だから相談所は、前原さんの意見が善意なのか悪意なのかも見極めた上で判断しなくてはならないんです。",
 		   NULL, "I servizi sociali hanno bisogno, per prima cosa, di capire se alla radice c'è una vera preoccupazione per Satoko-san o solo dell'odio per suo zio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700220", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6064", 256, TRUE);
 	OutputLine(NULL, "………前原さんのように、正義感だけで陳情に来る方ばかりではない。",
 		   NULL, " Non tutti coloro che frequentano il centro sono mossi dal buon cuore come voi, Maebara-san.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700221", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6065", 256, TRUE);
 	OutputLine(NULL, "相談所は常に、陳情者に悪意がある可能性を疑いながら慎重に話を聞かなければならないのです。",
 		   NULL, "Le decisioni sono da prendersi con attenzione e soltanto dopo aver analizzato le informazioni date da chi si presenta.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700222", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6066", 256, TRUE);
 	OutputLine(NULL, "そこをわかってあげないと。」",
 		   NULL, " Tienilo sempre a mente.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101030", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6210", 256, TRUE);
 	OutputLine(NULL, "「………つまり、俺があまりに喧嘩腰にやり過ぎたんで、悪意ある陳情だと誤解されたってわけですか…？」",
 		   NULL, "\"... in altre parole, il mio modo di fare troppo diretto li ha portati a credere che il mio unico motivo sia il rancore?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700223", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6067", 256, TRUE);
 	OutputLine(NULL, "「いいえ、その誤解はないようです。",
 		   NULL, "\"No, non fraintendermi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700224", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6068", 256, TRUE);
 	OutputLine(NULL, "ただ、見極めるために慎重になっている点だけはわかってあげてください。",
 		   NULL, " Limitati a pensare che prima devono valutare attentamente la situazione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700225", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6069", 256, TRUE);
 	OutputLine(NULL, "もし、怒鳴り込むだけで当事者の与り知れぬところで一時保護が乱発されたら、日本は大変な国になってしまいますよ。」",
 		   NULL, "Se decidessero di dare l'affido a chiunque venga a fare ricorso, senza approfondire alcunché, il paese andrebbe in rovina.\"", Line_Normal);
 	ClearMessage();
@@ -2251,30 +2254,30 @@ void main()
 	DrawSceneWithMask( "background/js4_02", "maskup", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/oishi081806", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6070", 256, TRUE);
 	OutputLine(NULL, "「だからお役所もですね、前原さんが諦めてくれるようにやんわりとお断りしていきたい方針なんですよ。",
 		   NULL, "\"Il centro di ascolto sta solo sperando che, presto o tardi, smetterete di andare da loro......", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700227", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6071", 256, TRUE);
 	OutputLine(NULL, "………沙都子さん以外にも急を要する用件はたくさんあるし人手もないんですから。",
 		   NULL, " perché hanno casi più urgenti a cui dover dedicare la propria attenzione......", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700228", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6072", 256, TRUE);
 	OutputLine(NULL, "………ただ、本当にお断りしてもいいものなのか、困っている部分もあるんです。",
 		   NULL, " solo che non sanno ancora se dirvelo direttamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700229", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6073", 256, TRUE);
 	OutputLine(NULL, "……これが少々厄介な、今日お話したかったことなんです。」",
 		   NULL, "...... volevo solo dirti questo.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101031", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6210_180101031", 256, TRUE);
 	OutputLine(NULL, "「…………？",
 		   NULL, "\"......?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101032", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6210_180101032", 256, TRUE);
 	OutputLine(NULL, "　どういう意味ですか…？",
 		   NULL, " Che vuoi dire...?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101033", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6210_180101033", 256, TRUE);
 	OutputLine(NULL, "　分かりにくかったです…。」",
 		   NULL, " Non ho capito...\"", Line_Normal);
 	ClearMessage();
@@ -2283,16 +2286,16 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700230", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6074", 256, TRUE);
 	OutputLine(NULL, "「前原さん、今日行かれた時は、昨日よりも待遇がよくありませんでしたか？」",
 		   NULL, "\"Maebara-san... per caso oggi vi hanno trattato meglio di ieri?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101034", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6211", 256, TRUE);
 	OutputLine(NULL, "「…えぇ、多少。",
 		   NULL, "\"Sì, direi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101035", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6212", 256, TRUE);
 	OutputLine(NULL, "広い会議室になって、係長が直接対応してくれました。」",
 		   NULL, " Ci hanno portato in una sala più ampia per parlare con il responsabile in persona.\"", Line_Normal);
 	ClearMessage();
@@ -2301,17 +2304,17 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700231", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6075", 256, TRUE);
 	OutputLine(NULL, "「前原さんは係長なんて聞くと、ヒラの次に偉いくらいの感じしかしないでしょう。",
 		   NULL, "\"Forse per te quel responsabile ricopre un ruolo leggermente più elevato rispetto al resto dei dipendenti.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700232", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6076", 256, TRUE);
 	OutputLine(NULL, "でもですね、お役所の係長というのは、民間でいうところの課長級に当るんです。",
 		   NULL, " Ma la verità è che si trova praticamente al pari di un caposezione di una grossa azienda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700233", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6077", 256, TRUE);
 	OutputLine(NULL, "もちろん昇進試験も権限もそれに匹敵します。",
 		   NULL, "Si tratta di una posizione difficile da ottenere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700234", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6078", 256, TRUE);
 	OutputLine(NULL, "今日、前原さんの応対をしてくれた方は、前原さんが想像してるよりもずっと偉い方なんです。",
 		   NULL, " L'uomo con cui avete parlato quest'oggi è una persona molto più potente di quanto crediate.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2320,15 +2323,15 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_4_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700235", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6079", 256, TRUE);
 	OutputLine(NULL, "……普通、ありませんよ。",
 		   NULL, "... e non è comune poterlo conoscere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps2/11/180700236", 540, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6080", 256, TRUE);
 	OutputLine(NULL, "窓口対応で直接、係長級が出て来るなんてことは。",
 		   NULL, "Un responsabile di quel calibro non si mostra quasi mai per un semplice consulto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps2/11/180700237", 540, TRUE);
-	OutputLine(NULL, "前原さんは、不相応に丁重な応対を受けたことを理解する必要があります。」",
+	ModPlayVoiceLS(4, 11, "org/ooishi6081", 256, TRUE);
+	OutputLine(NULL, "前原さんは、不相応に丁寧な対応を受けたことを理解する必要があります。」",
 		   NULL, " Cerca di capire che il trattamento che vi hanno riservato oggi è stato fin troppo speciale.\"", Line_Normal);
 	ClearMessage();
 

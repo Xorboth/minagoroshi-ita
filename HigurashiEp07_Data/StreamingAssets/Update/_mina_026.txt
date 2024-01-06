@@ -2625,13 +2625,13 @@ void main()
 	ModDrawCharacter(1, 4, "sprite/sa1a_odoroki_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400076", 256, TRUE);
+	ModPlayVoiceLS(4, 4, "org/satoko6023", 256, TRUE);
 	OutputLine(NULL, "「じょ、冗談じゃないですわよ！",
 		   NULL, "\"S-Smettila di scherzare!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400077", 256, TRUE);
+	ModPlayVoiceLS(4, 4, "org/satoko6024", 256, TRUE);
 	OutputLine(NULL, "　私たち、貧乏だから監督の怪しげな研究に協力してお金を恵んでもらってるんじゃありませんの？！",
 		   NULL, " Credevo che stessimo solo guadagnando qualche soldo aiutandolo con la sua ricerca!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400078", 256, TRUE);
+	ModPlayVoiceLS(4, 4, "org/satoko6025", 256, TRUE);
 	OutputLine(NULL, "　あんな注射、一生やれなんて、冗談ポイでございましてよ！！」",
 		   NULL, " Non voglio più fare quelle iniezioni! Mai più in vita mia!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3274,10 +3274,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500285", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6071", 256, TRUE);
 	OutputLine(NULL, "「……いえ、岐阜に行っています。",
 		   NULL, "\"...... è andato nella prefettura di Gifu.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500286", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6072", 256, TRUE);
 	OutputLine(NULL, "鷹野の死体を確かめに。」",
 		   NULL, " Voleva controllare il corpo di Takano.\"", Line_Normal);
 	ClearMessage();
@@ -3286,25 +3286,25 @@ void main()
 	ModDrawCharacterWithFiltering(1, 6, "sprite/si3_majime_a1_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600031", 256, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6137", 256, TRUE);
 	OutputLine(NULL, "「あー…。",
 		   NULL, "\"Ah....", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600032", 256, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6138", 256, TRUE);
 	OutputLine(NULL, "岐阜の山の中でしたっけ？",
 		   NULL, " l'hanno trovata a Gifu, giusto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600033", 256, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6139", 256, TRUE);
 	OutputLine(NULL, "　ドラム缶の中で黒こげって話。",
 		   NULL, " Bruciata viva dentro a un barile...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600034", 256, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion6140", 256, TRUE);
 	OutputLine(NULL, "……でも何でわざわざ大石ともあろう人が直々なんでしょうね。」",
 		   NULL, " perché Ooishi è voluto andare lì di persona?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500287", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6073", 256, TRUE);
 	OutputLine(NULL, "「……鷹野の死体が違う可能性があるらしいのです。",
 		   NULL, "\"...... perché è possibile che quel cadavere non sia davvero quello di Takano.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500288", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6074", 256, TRUE);
 	OutputLine(NULL, "岐阜が協力的じゃなくてあやふやなことを言ってるらしいです。」",
 		   NULL, " Purtroppo, la polizia scientifica di Gifu non sta collaborando molto.\"", Line_Normal);
 	ClearMessage();
@@ -3466,14 +3466,14 @@ void main()
 	DrawSceneWithMask( "background/hu_r1", "maskleft", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300074", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6165", 256, TRUE);
 	OutputLine(NULL, "「客観的に見て、鷹野さんだけ岐阜で死体が見付かるのがすでにおかしいよ。",
 		   NULL, "\"Strano che il corpo di Takano-san sia stato trovato nella prefettura di Gifu.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300075", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6166", 256, TRUE);
 	OutputLine(NULL, "富竹さんを殺した風に偽装するなら、死体は絶対に見付からないところに隠す。",
 		   NULL, " Se qualcuno avesse voluto inscenare l'omicidio di Tomitake-san per mano sua, allora avrebbe nascosto il cadavere in un luogo impossibile da scoprire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300076", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6167", 256, TRUE);
 	OutputLine(NULL, "山中で野焼きなんて、見つけてくださいって言ってるようなもんだもん。」",
 		   NULL, "Bruciarlo in mezzo alle montagne è quasi come invitare la prima auto che passa a fermarsi.\"", Line_Normal);
 	ClearMessage();
@@ -3658,10 +3658,10 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500293", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6075", 256, TRUE);
 	OutputLine(NULL, "「……大石は岐阜の話が終わったらすぐに戻って来ると言ってましたです。",
 		   NULL, "\"...... Ooishi tornerà non appena avrà finito i suoi controlli a Gifu.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500294", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6076", 256, TRUE);
 	OutputLine(NULL, "だから時間はわかりませんが、今日必ず来てくれますのです。」",
 		   NULL, " Non so quando arriverà, ma non ci lascerà qui da soli.\"", Line_Normal);
 	ClearMessage();
@@ -3835,16 +3835,16 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700184", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6151", 256, TRUE);
 	OutputLine(NULL, "「良かった、ご無事なようですねぇ！",
 		   NULL, "\"Accidenti, per fortuna sei ancora tutta intera!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700185", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6152", 256, TRUE);
 	OutputLine(NULL, "　大石です。",
 		   NULL, " Sono Ooishi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700186", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6153", 256, TRUE);
 	OutputLine(NULL, "岐阜の用事を終わらせましてね、今、興宮に戻っている途中です。",
 		   NULL, " Ho finito le mie faccende qui a Gifu e sto per tornare verso Okinomiya.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700187", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6154", 256, TRUE);
 	OutputLine(NULL, "途中のガソリンスタンドから電話しています。」",
 		   NULL, " Chiamo da un benzinaio lungo la strada.\"", Line_Normal);
 	ClearMessage();
@@ -3856,13 +3856,13 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700188", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6155", 256, TRUE);
 	OutputLine(NULL, "「んっふっふっふっふ！！",
 		   NULL, "\"Nfufufufu!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700189", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6156", 256, TRUE);
 	OutputLine(NULL, "　やりましたよ、やっぱりそうでした！",
 		   NULL, " Ce l'abbiamo fatta! È come pensavo!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700190", 256, TRUE);
+	ModPlayVoiceLS(4, 11, "org/ooishi6157", 256, TRUE);
 	OutputLine(NULL, "　岐阜の資料がとんでもないイージーミスをしていました。",
 		   NULL, " Gifu ha commesso un errore da principianti nei suoi rapporti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700191", 256, TRUE);

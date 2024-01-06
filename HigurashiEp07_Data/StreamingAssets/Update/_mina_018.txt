@@ -124,16 +124,16 @@ void main()
 	DrawSceneWithMask( "background/ima1", "maskleft", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300594", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6139", 256, TRUE);
 	OutputLine(NULL, "「……母さん。",
 		   NULL, "\"... mamma.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300595", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6140", 256, TRUE);
 	OutputLine(NULL, "そこは私から説明する。",
 		   NULL, " Continuo io.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300596", 256, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6141", 256, TRUE);
 	OutputLine(NULL, "沙都子の叔父はとんでもないゴロツキなんだよ。",
 		   NULL, " Lo zio di Satoko è una persona orribile.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps2/03/180300597", 540, TRUE);
+	ModPlayVoiceLS(4, 3, "org/mion6142", 256, TRUE);
 	OutputLine(NULL, "去年も沙都子に暴力を振るってるし、愛人に捨てられたと思って雛見沢に帰ってきた不機嫌な叔父にとってはそれはさらに酷いものだと容易に想像がつく。」",
 		   NULL, " L'anno scorso la picchiava alla minima occasione, e ora che è tornato a Hinamizawa dopo che la sua amante l'ha scaricato sarà ancora più intrattabile.\"", Line_Normal);
 	ClearMessage();
@@ -495,35 +495,35 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101434", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6285", 256, TRUE);
 	OutputLine(NULL, "「村と役所は手打ち。沙都子には並みの対応。",
 		   NULL, "\"Il consiglio cittadino e gli uffici pubblici hanno degli accordi. Stanno trattando il caso di Satoko come ogni altro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101435", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6286", 256, TRUE);
 	OutputLine(NULL, "………だから沙都子がどんなにヤバい状況でも知ったことじゃないってんですか。",
 		   NULL, "...... vuole forse dire che non le importa che Satoko si trovi sull'orlo del baratro?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101436", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6287", 256, TRUE);
 	OutputLine(NULL, "さっき魅音たちも言ったように、鉄平って野郎はまずい。",
 		   NULL, " Come ha detto Mion poco fa, quel Teppei è una canaglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101437", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6288", 256, TRUE);
 	OutputLine(NULL, "…３日ぶりに沙都子が登校して来た時、あいつはもうボロボロだった。",
 		   NULL, "... Satoko è tornata a scuola dopo essere stata tenuta chiusa in casa tre giorni e aveva già lo sguardo di chi ha vissuto l'inferno.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101438", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6289", 256, TRUE);
 	OutputLine(NULL, "たったの３日でですよ！！",
 		   NULL, " Dopo soli tre giorni!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101439", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6290", 256, TRUE);
 	OutputLine(NULL, "　その１０倍の時間で一月が経っただけで、どうなってるか想像もつかない！",
 		   NULL, " Non riesco neanche a immaginare cosa potrebbe succedere dopo un mese!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps2/01/180101440", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6291", 256, TRUE);
 	OutputLine(NULL, "　しかも一ヵ月後には絶対に救われる保証もない。",
 		   NULL, "Senza contare che nessuno ci garantisce che l'aiuteranno davvero.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "ps2/01/180101441", 540, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6292", 256, TRUE);
 	OutputLine(NULL, "その時点で様子見と相談所は判断するかもしれません。",
 		   NULL, " Potrebbero lasciare il caso in sospeso come hanno fatto finora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101442", 256, TRUE);
+	ModPlayVoiceLS(4, 1, "org/keiichi6293", 256, TRUE);
 	OutputLine(NULL, "…えっと、…魅音のお母さんは、心ならいくら傷付けられても構わないと仰るんですか！！」",
 		   NULL, "... ecco... secondo lei non soffre finché si tratta solo di danni psicologici?!\"", Line_Normal);
 	ClearMessage();
@@ -1085,7 +1085,7 @@ void main()
 	DrawSceneWithMask( "background/ima1", "maskleft", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200630", 256, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6086", 256, TRUE);
 	OutputLine(NULL, "「でも、沙都子ちゃんが謝ってケジメをつけたら。",
 		   NULL, "\"Se Satoko-chan tracciasse questa 'linea netta'...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1094,7 +1094,7 @@ void main()
 	ModDrawCharacter(2, 2, "sprite/re2a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200631", 256, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6087", 256, TRUE);
 	OutputLine(NULL, "……ケジメを示すべきでないにもかかわらず、村八分にして嫌ってきたケジメはお婆ちゃんもとってくれますよね？」",
 		   NULL, "Voi fareste altrettanto e vi scusereste per aver trattato una bambina innocente in modo discriminatorio...?\"", Line_Normal);
 	ClearMessage();
@@ -1602,7 +1602,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 5, "sprite/ri2_def_a1_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500876", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6029", 256, TRUE);
 	OutputLine(NULL, "「……お魎、数多の血管が切れちゃいますです。」",
 		   NULL, "\"... Oryou, fa' attenzione alla pressione.\"", Line_Normal);
 	ClearMessage();

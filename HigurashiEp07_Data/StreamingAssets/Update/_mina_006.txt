@@ -1656,13 +1656,13 @@ void main()
 	DrawScene( "background/saiguden_01", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps2/08/180800021", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6000", 256, TRUE);
 	OutputLine(NULL, "「…………どうして…、こんなにもたくさんの拷問道具を作ったんだろうね。",
 		   NULL, "\"Chissà per quale motivo avevano bisogno di un così gran numero di strumenti di tortura.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800022", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6001", 256, TRUE);
 	OutputLine(NULL, "だって、拷問というのは、相手を屈服させるのが目的じゃないのかい？",
 		   NULL, " In fondo, l'unico scopo che hanno certi trattamenti è quello di ottenere delle confessioni, no?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800023", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6002", 256, TRUE);
 	OutputLine(NULL, "　こんなにいくつも、おびただしい数や種類がどうして必要だったんだろう。」",
 		   NULL, " C'era proprio bisogno di realizzarne così tanti...?\"", Line_Normal);
 	ClearMessage();
@@ -1671,13 +1671,13 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_akuwarai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900081", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6000", 256, TRUE);
 	OutputLine(NULL, "「ジロウさん。",
 		   NULL, "\"Jirou-san...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900082", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6001", 256, TRUE);
 	OutputLine(NULL, "拷問道具には２つの脅し方があるのを知ってるかしら？",
 		   NULL, " gli strumenti di tortura funzionano in due modi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900083", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6002", 256, TRUE);
 	OutputLine(NULL, "　１つは使用して相手を痛めつけることで効果を発揮するもの。",
 		   NULL, " Il primo è quello di far soffrire le vittime.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1686,11 +1686,11 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900084", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6003", 256, TRUE);
 	OutputLine(NULL, "もう１つは、使用するぞ使用したらものすごい痛いぞと脅迫するためのものなの。",
 		   NULL, "Il secondo è quello di minacciarle soltanto mostrandoglieli.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900085", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6004", 256, TRUE);
 	OutputLine(NULL, "そういう意味では、色々物騒な拷問道具がたくさん取り揃えてある光景は、それだけで脅迫的意味を持つものだったのよ。」",
 		   NULL, "Seguendo questa logica, la scena di una sfilza di strumenti di tortura pronti all'uso dev'essere stata terrificante per la popolazione.\"", Line_Normal);
 	ClearMessage();
@@ -1699,10 +1699,10 @@ void main()
 	ModDrawCharacter(2, 8, "sprite/tomi1_komaru_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps2/08/180800024", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6003", 256, TRUE);
 	OutputLine(NULL, "「た、確かに、拷問というのは、実は高度は技術が必要だ…というような話は聞いたことがあるよ。",
 		   NULL, "\"I-In effetti, ho sentito che anche per saperli usare è necessaria una certa maestria...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800025", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6004", 256, TRUE);
 	OutputLine(NULL, "ほどよく痛めつけて、かつ殺さないというのは確かに、加減が難しいことかもしれないね……。」",
 		   NULL, " dev'essere molto difficile fare del male a una persona senza arrivare a ucciderla...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1713,30 +1713,28 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900086", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6005", 256, TRUE);
 	OutputLine(NULL, "「西洋の拷問道具の中には、やたらと装飾過多で、実際に使用すれば、痛めつける以前に、あっさりと殺してしまいかねない、ある意味、拷問道具としては構造欠陥のあるものが少なくないのよ。",
 		   NULL, "\"Tra gli strumenti di tortura usati in occidente, ne esistevano alcuni che avrebbero ucciso immediatamente il malcapitato se fossero stati usati davvero.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900087", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6006", 256, TRUE);
 	OutputLine(NULL, "……まぁ、拷問道具も厳密には、屈服を目的とする被験者を対象にした純粋な拷問道具と、見せしめや娯楽を目的とする観覧者を対象にした虐殺道具に分かれるんだけど。",
 		   NULL, "Entrando nel dettaglio, gli strumenti di tortura si dividono in due categorie: quelli che hanno lo scopo di far confessare la vittima e quelli che servono soltanto a dare spettacolo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900088", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6007", 256, TRUE);
 	OutputLine(NULL, "これを混同して誤解している人が多いのが嘆かわしいわね。",
 		   NULL, "Che peccato che la maggior parte della gente non riesca a cogliere la differenza.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900089", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6008", 256, TRUE);
 	OutputLine(NULL, "くすくす。」",
 		   NULL, " Eheh...\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800026", 256, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6005", 256, TRUE);
 	OutputLine(NULL, "「じゃ、じゃあ話を戻すけど、",
-		   NULL, "\"A-Allora ti faccio un'altra domanda...", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1400 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, "\"A-Allora ti faccio un'altra domanda...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "org/tomitake6006", 256, TRUE);
 	OutputLine(NULL, "……これらの拷問道具で、昔の人たちは何を屈服させようとしていたんだい…？」",
 		   NULL, " che cosa cercavano di ottenere le persone del passato sfruttando questi oggetti...?\"", Line_Normal);
 	ClearMessage();
@@ -1783,14 +1781,14 @@ void main()
 	SetSpeedOfMessage( FALSE, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500363", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6000", 256, TRUE);
 	OutputLine(NULL, "「……正解なのです。",
 		   NULL, "\"... hai indovinato.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500364", 256, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6001", 256, TRUE);
 	OutputLine(NULL, "これらの祭具は、実際に使用するためでなく、むしろ、展示して村人を怖がらせて戒律を遵守させることを主眼に置いたものだと言われてますです。",
 		   NULL, " Quasi nessuno di questi strumenti fu mai davvero utilizzato, ma servì solo a monito di cosa sarebbe successo a chi avesse infranto le regole.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 5, "ps2/05/180500365", 540, TRUE);
+	ModPlayVoiceLS(4, 5, "org/rika6002", 256, TRUE);
 	OutputLine(NULL, "だから、実際にこれらの道具を使う時になって、サイズが合わなかったり、構造的に欠陥があったりで、満足に使用できなかったという話も結構残っていますのです。」",
 		   NULL, "A sostegno di ciò, alcune fonti affermano che, quando gli abitanti cercarono di utilizzarli davvero, non ci riuscirono perché erano mal proporzionati o mal realizzati.\"", Line_Normal);
 	ClearMessage();
@@ -1815,13 +1813,13 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900091", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6009", 256, TRUE);
 	OutputLine(NULL, "「ねぇ梨花ちゃん。",
 		   NULL, "\"Senti, Rika-chan...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900092", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6010", 256, TRUE);
 	OutputLine(NULL, "ではこれらの道具は、基本的に村人を威圧するために用意されているのかしら？",
 		   NULL, " sei proprio sicura che questi oggetti venissero utilizzati soltanto a mo' di minaccia?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900093", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6011", 256, TRUE);
 	OutputLine(NULL, "　本当の意味での綿流しの時、食人の宴に使った調理、解体道具だって言う説があるんだけど？」",
 		   NULL, " Ho sentito che alcuni di essi avevano un ruolo importante nello scuoiare e lacerare la carne durante il vero Watanagashi...\"", Line_Normal);
 	ClearMessage();
@@ -1863,17 +1861,17 @@ void main()
 	ModDrawCharacter(2, 8, "sprite/tomi1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800029", 256, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6007", 256, TRUE);
 	OutputLine(NULL, "「鷹野さんによく僕も聞かされるよ。",
 		   NULL, "\"Takano-san me lo racconta di continuo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800030", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6008", 256, TRUE);
 	OutputLine(NULL, "大昔の鬼ヶ淵村の人たちは、神様のお告げがあると、麓に降りて、人をさらって食べてしまったんだろう？",
 		   NULL, " In passato, gli abitanti di Onigafuchi ricevevano la visita di un messaggero degli dei, scendevano ai piedi delle montagne, rapivano la gente e la divoravano, giusto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 8, "ps2/08/180800031", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6009", 256, TRUE);
 	OutputLine(NULL, "　どうしてそんなことをしたんだろう。",
 		   NULL, " Mi chiedo come mai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps2/08/180800032", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6010", 256, TRUE);
 	OutputLine(NULL, "これもまた、麓の人々に対する何かの見せしめなのかい？」",
 		   NULL, "Che si trattasse semplicemente di una dimostrazione di forza?\"", Line_Normal);
 	ClearMessage();
@@ -1885,18 +1883,17 @@ void main()
 	ModPlayBGM( 1, "higurashi", 28, 0, 1 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900094", 540, TRUE);
-	OutputLine(NULL, "「私はそこは、おそらく食物連鎖で人間よりも優位にあることを自覚するためにやった、一種の儀式だと思っているわ。",
-		   NULL, "\"Ritengo che fosse una sorta di cerimonia in cui dimostravano al resto del mondo di essere sul gradino più alto della catena alimentare.", GetGlobalFlag(GLinemodeSp));
+	ModPlayVoiceLS(4, 9, "org/takano6012", 256, TRUE);
+	OutputLine(NULL, "「私はそこは、おそらく食物連鎖で人間よりも優位にあることを自覚するためにやった、一種の儀式だと思っているわ。鬼ヶ淵村が外部との交流を禁ずる最大の建前が、自分たちは仙人で、村は聖地。",
+		   NULL, "\"Credo fosse una cerimonia per dimostrare di essere in cima alla catena alimentare. Il villaggio impediva ai suoi abitanti di comunicare con l'esterno perché era un luogo sacro, abitati dai 'trascendenti.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900095", 540, TRUE);
-	OutputLine(NULL, "鬼ヶ淵村が外部との交流を禁ずる最大の建前が、自分たちは仙人で、村は聖地。",
-		   NULL, "In fondo, il villaggio impediva ai suoi abitanti di comunicare con l'esterno perché questo era un luogo sacro, dove dimoravano esseri 'trascendenti' e superiori ai comuni umani.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900096", 540, TRUE);
-	OutputLine(NULL, "汚らわしい人間と交流すると穢れを持ち込む……、そういう風に言われてた。",
-		   NULL, "Immagino che gli avessero insegnato... che interagire con gli esseri umani macchiasse la loro sacralità.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900097", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6013", 256, TRUE);
+	OutputLine(NULL, "汚らわしい人間と交流すると穢れを持ち込む……、",
+		   NULL, "Immagino che gli avessero insegnato...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6014", 256, TRUE);
+	OutputLine(NULL, "そういう風に言われてた。",
+		   NULL, " che interagire con gli esseri umani macchiasse la loro sacralità.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6015", 256, TRUE);
 	OutputLine(NULL, "だから定期的に、自分たちは人間以上の存在であることを、自覚し直す必要があったんじゃないかしら。」",
 		   NULL, " Ecco perché sentivano il bisogno di dover riaffermare la loro superiorità a intervalli regolari.\"", Line_Normal);
 	ClearMessage();
@@ -1914,10 +1911,10 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900098", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6016", 256, TRUE);
 	OutputLine(NULL, "「見せしめの犠牲者が、酷い方法で拷問されて、生きながら食われて絶命する。",
 		   NULL, "\"Le vittime venivano torturate sulla pubblica piazza e poi mangiate vive.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900099", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6017", 256, TRUE);
 	OutputLine(NULL, "そんなのを見せ付けられたら、………くすくす。",
 		   NULL, " Tu cos'avresti pensato vedendo una scena simile...? Eheh.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900100", 256, TRUE);
@@ -1927,31 +1924,31 @@ void main()
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900101", 256, TRUE);
 	OutputLine(NULL, "日本には晒し首だけでなく、磔だってあったでしょう？",
 		   NULL, "In Giappone erano in voga anche le crocifissioni.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900102", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6020", 256, TRUE);
 	OutputLine(NULL, "　処刑場に高々と死刑囚を磔にして、観衆の前で辱められながら長槍でブスブスと刺されるのよ。",
 		   NULL, " I vincitori crocifiggevano le vittime e le infilzavano con delle lance davanti alla folla.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900103", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6021", 256, TRUE);
 	OutputLine(NULL, "　……ジロウさんもわかると思うけど、槍でほんの一突き二突きされた程度じゃ人は絶命なんてできない。",
 		   NULL, "Immagino che tu lo sappia già, Jirou-san, ma difficilmente una persona muore dopo essere stata infilzata un paio di volte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900104", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6022", 256, TRUE);
 	OutputLine(NULL, "腹部や胸部を貫かれれば、それは十分に致死的なことではあるけれど、ギロチンなんかのように綺麗さっぱり死ねるわけじゃないのよ。",
 		   NULL, "Forse nel caso di un punto vitale, come lo stomaco o il petto, avrebbero potuto morire subito, ma in generale non è mai istantaneo come con una ghigliottina.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900105", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6023", 256, TRUE);
 	OutputLine(NULL, "血がぶくぶくと溢れ出し、腹からは腸を引きずり出されて、肺に血が溜まり最後には自らの血で溺れ死ぬ。",
 		   NULL, "Dalle ferite colavano sangue e talvolta anche gli organi interni, lasciando il malcapitato a morire affogato nel proprio sangue.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900106", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6024", 256, TRUE);
 	OutputLine(NULL, "くすくす、そんな緩慢な死を思えば、ギロチンなんて人道的な発明よね。",
 		   NULL, " Eheh, possiamo dire che la ghigliottina sia una pena capitale davvero caritatevole.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900107", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6025", 256, TRUE);
 	OutputLine(NULL, "そうそう知ってる？",
 		   NULL, " Ah, a proposito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900108", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6026", 256, TRUE);
 	OutputLine(NULL, "　ギロチンってね、貴族のために生み出されたんですってよ？",
 		   NULL, "La ghigliottina fu inventata per la nobiltà.", Line_Normal);
 	ClearMessage();
@@ -1963,88 +1960,76 @@ void main()
 	PlayBGM( 2, "yabaisemi", 56, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900109", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6027", 256, TRUE);
 	OutputLine(NULL, "　銃殺や絞首刑よりも、もっともっと綺麗にあっさりすっぱりと死ねるように生み出した、",
-		   NULL, "Serviva per fare in modo che i nobili morissero subito, cosa che non succedeva con l'impiccagione o la fucilazione.", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 6800 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, "Serviva per fare in modo che i nobili morissero subito, cosa che non succedeva con l'impiccagione o la fucilazione.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6028", 256, TRUE);
 	OutputLine(NULL, "死の際まで特別扱いしてもらえる貴族のための処刑道具。",
 		   NULL, " In pratica, a loro era riservato un trattamento di favore anche nella morte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900110", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6029", 256, TRUE);
 	OutputLine(NULL, "フランス革命末期の恋愛を描いた、何とか物語っていう白黒映画があるんだけど、ラストのギロチンシーンは圧巻よ。",
 		   NULL, "Esiste un vecchio film in bianco e nero che parla di una storia d'amore durante la rivoluzione francese... ma la scena finale con la ghigliottina è la parte migliore.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900111", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6030", 256, TRUE);
 	OutputLine(NULL, "観衆の嘲笑を浴びながら、数珠繋ぎの貴族たちが一列に並ばされて、次々と一台のギロチンで処刑されていくの。",
 		   NULL, "I nobili, messi in fila e in catene, vengono condannati alla ghigliottina pubblicamente uno dopo l'altro.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900112", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6031", 256, TRUE);
 	OutputLine(NULL, "チョン。",
 		   NULL, " Zack!", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
-	ModPlayVoiceLS(4, 9, "ps2/09/180900113", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6032", 256, TRUE);
 	OutputLine(NULL, "はい次、",
-		   NULL, " Il prossimo.", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 500 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, " Il prossimo.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6033", 256, TRUE);
 	OutputLine(NULL, "チョン、",
-		   NULL, " Zack!", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, " Zack!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6034", 256, TRUE);
 	OutputLine(NULL, "はい次、",
-		   NULL, " Il prossimo.", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 500 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, " Il prossimo.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6035", 256, TRUE);
 	OutputLine(NULL, "チョン。",
 		   NULL, " Zack!", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900114", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6036", 256, TRUE);
 	OutputLine(NULL, "　人間の死がわずか一瞬で、ベルトコンベアーの上の工場生産のように量産されていく。",
 		   NULL, "Vite umane strappate al mondo come se messe sul nastro trasportatore.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900115", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6037", 256, TRUE);
 	OutputLine(NULL, "神父のお祈りも最期に言い残す言葉も何もなしよ？",
 		   NULL, " Nessuna ultima parola e nessuna preghiera.", Line_WaitForInput);
 	OutputLineAll(NULL, "", Line_ContinueAfterTyping);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900116", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6038", 256, TRUE);
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "　チョン、",
-		   NULL, " Zack!", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1500 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, " Zack!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6039", 256, TRUE);
 	OutputLine(NULL, "はい次、",
-		   NULL, " Il prossimo.", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 800 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, " Il prossimo.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 9, "org/takano6040", 256, TRUE);
 	OutputLine(NULL, "チョン！",
 		   NULL, " Zack!", Line_WaitForInput);
 	SetSpeedOfMessage( FALSE, 0 );
-	ModPlayVoiceLS(4, 9, "ps2/09/180900117", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6041", 256, TRUE);
 	OutputLine(NULL, "　もうそんな一瞬の死じゃ見世物にならないからね。",
 		   NULL, " Non è nemmeno uno spettacolo divertente, perché dura appena pochi minuti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900118", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6042", 256, TRUE);
 	OutputLine(NULL, "誰も個人の死に感情を抱かない。",
 		   NULL, "Tanto nessuno prova pietà per loro.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900119", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6043", 256, TRUE);
 	OutputLine(NULL, "観衆は一人の死を見てるんじゃなくて、何十人もの貴族が、長ネギをスライサーで削っていくみたいに、手際よくチョンチョンチョンとはねていく、そのチョンチョンの連続性をショーとして面白がるわけ。",
 		   NULL, " Per la gente, vedere decine di teste di nobili che cadono giù come verdure tagliate a rondelle è davvero uno spettacolo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900120", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6044", 256, TRUE);
 	OutputLine(NULL, "それに比べたら、一人の人間をじっくり虐め殺す方が、よっぽど個人を尊重しているとは思わない？",
 		   NULL, "Forse è più rispettoso uccidere qualcuno lentamente e brutalmente. Almeno così si farà più attenzione alle pene che attraversano, giusto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900121", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6045", 256, TRUE);
 	OutputLine(NULL, "　くすくすくすくす。",
 		   NULL, " Eheheheh.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900122", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6046", 256, TRUE);
 	OutputLine(NULL, "そんな濃密な死と拷問で飾り立てられたのが、このオヤシロさまという存在なわけ！」",
 		   NULL, "Oyashiro-sama infatti cercava sempre di scagliare sugli infedeli le peggiori torture possibili!\"", Line_Normal);
 	ClearMessage();
@@ -2061,21 +2046,21 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900123", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6047", 256, TRUE);
 	OutputLine(NULL, "「オヤシロさまという存在は結局、人間が生み出した偶像なの。",
 		   NULL, "\"Oyashiro-sama non è altro che un idolo creato dagli uomini.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900124", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6048", 256, TRUE);
 	OutputLine(NULL, "その偶像は、恐怖で祭り上げられることで神聖化した。",
 		   NULL, " L'idolo venerato con timore e reso divino.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900125", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6049", 256, TRUE);
 	OutputLine(NULL, "そう、人が法則や戒律で石垣を組み上げ、呪いや祟り、奇跡や恐怖の漆喰でそれを固める。",
 		   NULL, "Esatto. Gli uomini hanno eretto le loro chiese sopra a regole e dottrine, rafforzando la loro causa con maledizioni e sventure.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900126", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6050", 256, TRUE);
 	OutputLine(NULL, "それらを積み上げて積み上げて雲の上にまで届く高みを作り、その上に立てられるのが神という存在なの。",
 		   NULL, "Un mattone alla volta, le loro costruzioni hanno raggiunto altezze tali da entrare in contatto con il cielo e posizionare il loro dio sopra a ogni cosa.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900127", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6051", 256, TRUE);
 	OutputLine(NULL, "神は人が欲するゆえに人が生んだ人の手による存在。",
 		   NULL, " Gli dèi sono frutto del desiderio umano.", GetGlobalFlag(GLinemodeSp));
 
@@ -2083,14 +2068,14 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900128", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6052", 256, TRUE);
 	OutputLine(NULL, "つまり、人が人を恐怖で支配しようと思った時に生まれる、純粋な恐怖と血と拷問の結晶。",
 		   NULL, "E quando i regnanti decidono di governare con il terrore, ecco che prendono vita il sangue, le torture e il male più autentico.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900129", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6053", 256, TRUE);
 	OutputLine(NULL, "それがここではオヤシロさまという存在になるのよ！！！",
 		   NULL, " La stessa autenticità che grida il nome di Oyashiro-sama!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900130", 256, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6054", 256, TRUE);
 	OutputLine(NULL, "　つまり、神の世界へ至る階段は神ではなく人の手で作られていたことの証左であり私たち人間をさらなる高みへ誘う指針を示して、」",
 		   NULL, "In altre parole, questo dimostra che la scalinata che dovrebbe condurre al paradiso non è stata creata dagli dèi, bensì dagli uomini, che puntano sempre più in alto soltanto per...\"", Line_Normal);
 	ClearMessage();
@@ -2181,16 +2166,16 @@ void main()
 	ModDrawCharacter(3, 12, "sprite/ha1_yowaki_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 12, "ps2/12/181100107", 540, TRUE);
+	ModPlayVoiceLS(4, 12, "org/hanyu6002", 256, TRUE);
 	OutputLine(NULL, "「…僕は人が死んだりとか、虐められたりとかそんなのは嫌なのです。",
 		   NULL, "\"Io detesto... vedere le persone uccise o torturate.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100108", 256, TRUE);
+	ModPlayVoiceLS(4, 12, "org/hanyu6003", 256, TRUE);
 	OutputLine(NULL, "みんなで一緒に、仲良く楽しく暮らしてくれればいいのです……。",
 		   NULL, " Desidero solo che tutti siano felici...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100109", 256, TRUE);
+	ModPlayVoiceLS(4, 12, "org/hanyu6004", 256, TRUE);
 	OutputLine(NULL, "もちろん、僕たちが悪いところもいっぱいありますです。",
 		   NULL, " certo, è vero che non è sempre andata per il verso giusto...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100110", 256, TRUE);
+	ModPlayVoiceLS(4, 12, "org/hanyu6005", 256, TRUE);
 	OutputLine(NULL, "でもでも、……そんなのを望んだことなんて一度もないのです………！！」",
 		   NULL, " ma non sono stata io a chiedere loro di fare quelle cose...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2503,8 +2488,9 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color> & <color=#945c44>富竹</color>", NULL, "<color=#f6d9a8>Takano</color> & <color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900139_1", 256, TRUE);
+	ModPlayVoiceLS(5, 8, "org/tomitake6011", 256, TRUE);
 	OutputLine(NULL, "「「ぷ、…あははは、あっはっはっはっはっは！」」",
 		   NULL, "\"Pfft... ahahah, ahahahahaha!!\"", Line_Normal);
 	ClearMessage();

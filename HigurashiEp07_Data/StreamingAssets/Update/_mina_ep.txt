@@ -990,26 +990,26 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6000", 256, TRUE);
 	OutputLine(NULL, "「そんな危険な病気、初めて聞いたよ！",
 		   NULL, "\"Non ho mai sentito parlare di una malattia così pericolosa!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6000", 256, TRUE);
 	OutputLine(NULL, "　本当に治療の手段はないのか？！」",
 		   NULL, " Davvero non esiste una cura?!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6000", 256, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"Esatto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6001", 256, TRUE);
 	OutputLine(NULL, "国立研究所の説明では、重度感染者の発症に対する治療法は確立したばかりで、全住民への対応は事実上不可能とのことです。",
 		   NULL, " Secondo il Centro Nazionale di Ricerca, è stata scoperta una cura per i portatori della malattia, ma ancora non basta per somministrare il trattamento a tutto il villaggio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6002", 256, TRUE);
 	OutputLine(NULL, "最短で２４時間以内、長くとも４８時間以内に山村の人口二千人が全て末期発症するとのことです。",
 		   NULL, "L'intera popolazione svilupperà sintomi di stadio terminale nell'arco delle prossime 24 o 48 ore.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6003", 256, TRUE);
 	OutputLine(NULL, "甚大な被害と影響が予想されます。」",
 		   NULL, " Sarà una catastrofe senza precedenti.\"", Line_Normal);
 	ClearMessage();
@@ -1036,46 +1036,46 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900003", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6002", 256, TRUE);
 	OutputLine(NULL, "「そりゃ大変なことになるのはわかるけど、住民を皆殺しにするなんて、そんなの許可できるわけないだろう！！",
 		   NULL, "\"Ho capito alla perfezione quanto sia urgente, ma non posso dare il via libera al massacro di un villaggio intero!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6003", 256, TRUE);
 	OutputLine(NULL, "　そもそも、なんでこんな危険な病気を隠蔽して研究なんかしてたんだ？！",
 		   NULL, " Innanzitutto, perché avete svolto delle ricerche simili in segreto?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900005", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6004", 256, TRUE);
 	OutputLine(NULL, "　そもそもそういう事態を招いたのはその関係の連中の責任じゃないのかね！！",
 		   NULL, " Non è forse responsabilità di coloro che le finanziano?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900006", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6005", 256, TRUE);
 	OutputLine(NULL, "　第一、こんな危険な研究は今や日本の国益に貢献しないどころか、損ないかねんぞ！！",
 		   NULL, "E poi, un virus così pericoloso come poteva portare dei benefici al nostro paese?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900007", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6006", 256, TRUE);
 	OutputLine(NULL, "　どうして昭和の５８年までこんな馬鹿げた研究をしていたんだ！",
 		   NULL, " Siamo nel 1983, per l'amor del cielo!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900008", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6007", 256, TRUE);
 	OutputLine(NULL, "　報告書によれば、研究目的のために撲滅を意図的に遅らせていたそうじゃないか！",
 		   NULL, "In base a questi documenti, è stata posticipata intenzionalmente l'eliminazione del patogeno per avere più tempo per studiarlo!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900009", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6008", 256, TRUE);
 	OutputLine(NULL, "　しかも汚職を巡るトラブルの果てにこんな事態だ！",
 		   NULL, " È incredibile che tutto questo sia stato causato da un singolo ricercatore!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900010", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6009", 256, TRUE);
 	OutputLine(NULL, "　これはテロだよテロ！！",
 		   NULL, "È un atto terroristico!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900011", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6010", 256, TRUE);
 	OutputLine(NULL, "　『東京』の老害だ！",
 		   NULL, " Tutta colpa di quelle teste dure di Tokyo!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900012", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6011", 256, TRUE);
 	OutputLine(NULL, "　こんな研究を支持していた人間には全員責任を取ってもらうぞ！！",
 		   NULL, " Sarà meglio che siano pronti per affrontare le conseguenze!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900013", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6012", 256, TRUE);
 	OutputLine(NULL, "　いつまでも大戦の亡霊に取り憑かれている連中を追放したまえ！！",
 		   NULL, " Per quanto ancora avete intenzione di tenere tra le vostre fila uomini ossessionati dal fantasma della guerra?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900014", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6013", 256, TRUE);
 	OutputLine(NULL, "　これは『東京』の膿みを出すいい機会じゃないのかね？！」",
 		   NULL, "Questa è l'occasione giusta per sbarazzarsi del cancro che affligge Tokyo!\"", Line_Normal);
 	ClearMessage();
@@ -1085,7 +1085,7 @@ void main()
 	ModPlayBGM( 1, "higurashi", 28, 0, 1 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6000", 256, TRUE);
 	OutputLine(NULL, "「…………責任者の追及は必ず行ないますが、それより前に、対応を考えなければなりません。」",
 		   NULL, "\"...... parleremo delle responsabilità in separata sede, ma adesso dobbiamo prendere una decisione in fretta.\"", Line_Normal);
 	ClearMessage();
@@ -1105,190 +1105,190 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6001", 256, TRUE);
 	OutputLine(NULL, "「……………滅菌作戦を承認しない場合のシミュレートを聞かせてください。」",
 		   NULL, "\"......... cosa succederà se non approverò questa soluzione?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000007", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6004", 256, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"Dunque...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000008", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6005", 256, TRUE);
 	OutputLine(NULL, "今から３６時間後には村人のほぼ１０割が末期発症。",
 		   NULL, " quasi il cento percento della popolazione del villaggio svilupperà sintomi di stadio terminale entro 36 ore.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000009", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6006", 256, TRUE);
 	OutputLine(NULL, "末期的な被害妄想に取り憑かれ反社会的な行為を行ないます。",
 		   NULL, " Cadranno vittima di acute manie di persecuzione, sfociando in comportamenti anomali e violenti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000010", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6007", 256, TRUE);
 	OutputLine(NULL, "想定されるのは、自殺、殺人、放火、強盗、強姦。",
 		   NULL, "Prevediamo numeri variabili di suicidi, omicidi, incendi, furti e stupri.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000011", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6008", 256, TRUE);
 	OutputLine(NULL, "治安の完全なる崩壊です。",
 		   NULL, "La pace mantenuta fino a pochi giorni fa sarà solo un ricordo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000012", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6009", 256, TRUE);
 	OutputLine(NULL, "騒動は恐らく雛見沢地区のみでなく周辺地区へも波及します。",
 		   NULL, "Probabilmente l'effetto non rimarrà circoscritto al solo villaggio ma raggiungerà tutta la regione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000013", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6010", 256, TRUE);
 	OutputLine(NULL, "結果、世界規模での注目を浴びることになるでしょう。",
 		   NULL, " Il mondo scoprirà presto cos'è accaduto,", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000014", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6011", 256, TRUE);
 	OutputLine(NULL, "民間の独自調査の結果、奇病が原因であることが発覚するのは食い止められません。",
 		   NULL, " compresa l'esistenza del misterioso agente patogeno.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000015", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6012", 256, TRUE);
 	OutputLine(NULL, "　野党は奇病の対応の不手際を政争の具に次期選挙を有利に運ぶでしょう。",
 		   NULL, "Sarà un'argomentazione di grande vantaggio per l'opposizione alle prossime elezioni.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000016", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6013", 256, TRUE);
 	OutputLine(NULL, "また『東京』内でも総理の対応に批判が高まるでしょう。",
 		   NULL, " 'Tokyo' punterà il dito contro l'operato del Primo Ministro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000017", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6014", 256, TRUE);
 	OutputLine(NULL, "彼らの支持は総理の列島改造に欠かせません。",
 		   NULL, "Ha bisogno della sua approvazione affinché i suoi obiettivi politici vengano raggiunti.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000018", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6015", 256, TRUE);
 	OutputLine(NULL, "そして何よりも、軍事目的での研究が政府内部から暴かれる可能性があります。",
 		   NULL, " Più di ogni altra cosa, rischia che il governo ammetta che tale ricerca veniva portata avanti per scopi militari.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000019", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6016", 256, TRUE);
 	OutputLine(NULL, "これだけは断固阻止しなくては我が国に致命的信用ダメージを与えかねません。」",
 		   NULL, "Se dovesse accadere, il nostro paese subirebbe un enorme danno economico e di immagine sul piano internazionale.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6002", 256, TRUE);
 	OutputLine(NULL, "「…………逆に、滅菌作戦を承認した場合はどうなりますか。」",
 		   NULL, "\"......... e se invece accettassi la vostra soluzione?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000020", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6017", 256, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"Vediamo...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000021", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6018", 256, TRUE);
 	OutputLine(NULL, "自然災害を装いますので、やはり対応の不手際の野党追及は避けられません。",
 		   NULL, " maschereremo l'evento e diremo che si sarà trattato di un disastro naturale, sebbene l'opposizione potrà ancora accusarci.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000022", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6019", 256, TRUE);
 	OutputLine(NULL, "ただし、奇病研究について発覚することはないでしょう。",
 		   NULL, " Ciononostante, almeno non verrà alla luce l'esistenza di questa epidemia misteriosa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000023", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6020", 256, TRUE);
 	OutputLine(NULL, "もし万が一、奇病の軍事的研究が世界に発覚したら我が国はアジア地域でのイニシアチブを完全に喪失します。」",
 		   NULL, "Se poi i mass media dovessero scoprire che la ricerca era finalizzata a scopi militari, il nostro paese perderebbe la presa e l'iniziativa che ha sul continente asiatico.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900015", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6014", 256, TRUE);
 	OutputLine(NULL, "「他国の援助を受ける政党は一大キャンペーンを張るな！",
 		   NULL, "\"Il supporto di quei paesi è di fondamentale importanza!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900016", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6015", 256, TRUE);
 	OutputLine(NULL, "　売国奴どもめ！",
 		   NULL, " Perdere la loro fiducia", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900017", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6016", 256, TRUE);
 	OutputLine(NULL, "　そうなれば野党の政権奪取は必至だよ！",
 		   NULL, " significherebbe cadere sotto i colpi dell'opposizione alle prossime elezioni!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900018", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6017", 256, TRUE);
 	OutputLine(NULL, "　日本は宣戦布告なくして占領されるぞ！！」",
 		   NULL, " Per il Giappone sarà di nuovo la fine, e stavolta senza bisogno di una guerra!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000024", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6021", 256, TRUE);
 	OutputLine(NULL, "「…シミュレートの結果では、第２党第３党が連立した場合、与野党の勢力は完全に反転します。",
 		   NULL, "\"Secondo le nostre simulazioni, l'equilibrio del potere oscillerà drasticamente se i partiti moderati formeranno una coalizione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000025", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6022", 256, TRUE);
 	OutputLine(NULL, "国際世論は我が国を一斉に非難。",
 		   NULL, " Il mondo intero ci riterrà responsabili.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000026", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6023", 256, TRUE);
 	OutputLine(NULL, "国連に対しＮＢＣ兵器開発疑惑の査察を要求するでしょう。",
 		   NULL, "Le Nazioni Unite ci accuseranno di aver sviluppato armi di distruzione di massa.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000027", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6024", 256, TRUE);
 	OutputLine(NULL, "近隣国は政府主導でバッシングキャンペーンを展開、高支持率を背景に対日外交を強硬路線に転換します。",
 		   NULL, " I governi dei paesi vicini avvieranno una campagna di boicottaggio nei nostri confronti, con il supporto di percentuali altissime di consensi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000028", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6025", 256, TRUE);
 	OutputLine(NULL, "我が国は政治的焦土と化すでしょう。」",
 		   NULL, "Il governo di questo paese potrà già dirsi morto e sepolto.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900019", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6018", 256, TRUE);
 	OutputLine(NULL, "「国際信用はぺんぺん草一本残らんということかね。",
 		   NULL, "\"E i legami con i nostri alleati si incrinerebbero...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900020", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6019", 256, TRUE);
 	OutputLine(NULL, "……くそ。",
 		   NULL, " dannazione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900021", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6020", 256, TRUE);
 	OutputLine(NULL, "つまり雛見沢地区と周辺自治体の数十万人だけの問題では済まんということだな。",
 		   NULL, " Alla fine, non si tratta solo di qualche centinaio di persone che vivono in mezzo al nulla, sperduti nei pressi di Hinamizawa, eh...?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900022", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6021", 256, TRUE);
 	OutputLine(NULL, "…………しかし！！",
 		   NULL, " ......... tuttavia!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900023", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6022", 256, TRUE);
 	OutputLine(NULL, "　全てを闇に葬るための犠牲が二千人とは多過ぎる！」",
 		   NULL, "Nascondere sotto al tappeto duemila cadaveri è troppo complicato!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000029", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6003", 256, TRUE);
 	OutputLine(NULL, "「…………日本国内において、生物兵器研究が行なわれていたことが露呈することだけは避けなければなりません。」",
 		   NULL, "\"......... la cosa più importante è impedire che il pubblico scopra che il Giappone stava creando segretamente delle armi biologiche.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100024", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6004", 256, TRUE);
 	OutputLine(NULL, "「……私は、どうやら大戦の亡霊の尻を拭くはめになりそうですね…。」",
 		   NULL, "\"... stiamo pagando con gli interessi tutti i nostri fantasmi del conflitto mondiale...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900024", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6023", 256, TRUE);
 	OutputLine(NULL, "「滅菌作戦は計画通りに隠密で実行できるのかね？！",
 		   NULL, "\"Siete assolutamente certi che l'operazione verrà eseguita in segreto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282900025", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6024", 256, TRUE);
 	OutputLine(NULL, "　滅菌作戦が発覚すれば奇病研究以上の大スキャンダルになるぞ？！」",
 		   NULL, " Se qualcuno lo venisse a sapere, diventerebbe uno scandalo ben peggiore della ricerca militare!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000031", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6026", 256, TRUE);
 	OutputLine(NULL, "「はい、ご安心ください。",
 		   NULL, "\"Non ha nulla da temere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000032", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6027", 256, TRUE);
 	OutputLine(NULL, "それにつきましては自衛隊内の機密保持に特化した専門部隊が当たります。",
 		   NULL, " Ci sono delle unità speciali dell'Esercito di Autodifesa assegnate a questo caso.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000033", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6028", 256, TRUE);
 	OutputLine(NULL, "このような事態を想定し研究と訓練を重ねた部隊です。",
 		   NULL, " Sono state addestrate appositamente per situazioni simili.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000034", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6029", 256, TRUE);
 	OutputLine(NULL, "万一の失敗はありえません。」",
 		   NULL, " Non falliranno.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6005", 256, TRUE);
 	OutputLine(NULL, "「都市沈黙戦という言葉は初めて聞きましたが、これはガスによる虐殺のことですね？",
 		   NULL, "\"È la prima volta che ne sento parlare. Stando alle vostre parole, causerete una strage attraverso del gas tossico, giusto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100005", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6006", 256, TRUE);
 	OutputLine(NULL, "　自衛隊にガス戦を習熟した部隊があったとは驚きました。」",
 		   NULL, " Non sapevo che nel nostro esercito fossero stanziate unità addestrare a tale scopo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000035", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6030", 256, TRUE);
 	OutputLine(NULL, "「ガス防護を知るにはガス戦を知らなければなりません。",
 		   NULL, "\"Per potersi proteggere da un attacco gassoso, bisogna prima sapere come eseguirlo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000036", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6031", 256, TRUE);
 	OutputLine(NULL, "ガス虐殺に備えるにはガス虐殺を知らねばなりません。",
 		   NULL, " Per conoscere come viene utilizzato questo gas, è necessario sapere anche come fa per uccidere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000037", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6032", 256, TRUE);
 	OutputLine(NULL, "装備実験隊は日本国が受ける可能性のある全ての攻撃に対し、日夜、研究を重ねています。」",
 		   NULL, "L'Unità di Ricerca e Sviluppo dev'essere sempre pronta per qualsiasi tipo di attacco.\"", Line_Normal);
 	ClearMessage();
@@ -1323,65 +1323,68 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100006", 540, TRUE);
-	OutputLine(NULL, "「………………明かせぬ研究を葬るために、明かせぬ方法を取るか……。",
-		   NULL, "\"......... quindi dobbiamo agire nell'ombra per tenere la ricerca lontana da occhi indiscreti.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100007", 540, TRUE);
-	OutputLine(NULL, "罪悪感の伴う任務だが、隊員から事実が漏れ出すことはないのかね？」",
-		   NULL, " Dare l'approvazione ci renderà tutti colpevoli. Siete sicuri che i membri di questa unità non ne faranno mai parola?\"", Line_Normal);
+	ModPlayVoiceLS(4, 0, "org/mob7k6007", 256, TRUE);
+	OutputLine(NULL, "「………………明かせぬ研究を葬るために、明かせぬ方法を取るか……。」",
+		   NULL, "\"......... quindi dobbiamo agire nell'ombra per tenere la ricerca lontana da occhi indiscreti.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "org/mob7i6025", 256, TRUE);
+	OutputLine(NULL, "「罪悪感の伴う任務だが、隊員から事実が漏れ出すことはないのかね？」",
+		   NULL, "\"Dare l'approvazione ci renderà tutti colpevoli. Siete sicuri che i membri di questa unità non ne faranno mai parola?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000038", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6033", 256, TRUE);
 	OutputLine(NULL, "「ありえません。",
 		   NULL, "\"Assolutamente sì.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000039", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6034", 256, TRUE);
 	OutputLine(NULL, "隊員は第一空挺から精鋭を選抜し、さらに高い忠誠心を持つ者のみで構成しております。",
 		   NULL, " Si tratta di personale scelto accuratamente tra i nostri uomini più fidati.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000040", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6035", 256, TRUE);
 	OutputLine(NULL, "実戦はこれが初めてになりますが、練度は極めて高く、内部の機密保持も問題ありません。」",
 		   NULL, "Non abbiamo mai eseguito un'operazione come questa, ma sono tutti dei veterani che si porteranno il segreto nella tomba.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100008", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6008", 256, TRUE);
 	OutputLine(NULL, "「……………まさに暗殺の専門部隊ですね。」",
 		   NULL, "\"......... un vero plotone assassino.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000041", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6036", 256, TRUE);
 	OutputLine(NULL, "「総理。",
 		   NULL, "\"Primo Ministro.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000042", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6037", 256, TRUE);
 	OutputLine(NULL, "どうか緊急マニュアル第３４号の執行にご決裁をお願いいたします。」",
 		   NULL, " La prego di darci il permesso di eseguire il Manuale di Emergenza 34.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100009", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6009", 256, TRUE);
 	OutputLine(NULL, "「…………防衛庁長官。",
 		   NULL, "\"...... Direttore Generale della Difesa.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100010", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6010", 256, TRUE);
 	OutputLine(NULL, "この作戦は必ず成功しますか？",
 		   NULL, " Lei crede che funzionerà?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100011", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6011", 256, TRUE);
 	OutputLine(NULL, "　事件が大騒ぎになる前に食い止められますか？",
 		   NULL, " Crede che questo incidente non verrà esposto?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100012", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6012", 256, TRUE);
 	OutputLine(NULL, "　いえ、……犠牲者を最小限に抑えられますか？」",
 		   NULL, " Anzi... è in grado di limitare al minimo le vittime civili?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000043", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6038", 256, TRUE);
 	OutputLine(NULL, "「はい総理。",
 		   NULL, "\"Sì, signor Ministro.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/283000044", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6039", 256, TRUE);
 	OutputLine(NULL, "すでに予備命令を発し作戦準備に入っております。",
 		   NULL, " Gli ordini preliminari sono già stati inviati, e i preparativi sono completati.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/283000045", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6040", 256, TRUE);
 	OutputLine(NULL, "ご決裁がいただければ直ちに出動して作戦に入ります。」",
 		   NULL, " La missione inizierà non appena avremo avuto la sua risposta.\"", Line_Normal);
 	ClearMessage();
@@ -1389,40 +1392,40 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100013", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6026", 256, TRUE);
 	OutputLine(NULL, "「……………私には人口二千人を虐殺する命令など下せません。",
 		   NULL, "\"......... non posso dare l'ordine di massacrare duemila innocenti...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100014", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6027", 256, TRUE);
 	OutputLine(NULL, "……ですが、内閣総理大臣として犠牲者を最小に抑える義務もあります。」",
 		   NULL, " tuttavia, in qualità di Primo Ministro, ho l'obbligo di evitare perdite di vite maggiori.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282900026", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6041", 256, TRUE);
 	OutputLine(NULL, "「総理、…胸中をお察しします。」",
 		   NULL, "\"Primo Ministro... comprendo il suo dilemma.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100015", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6013", 256, TRUE);
 	OutputLine(NULL, "「…………………長官。",
 		   NULL, "\"...... Direttore Generale.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100016", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6014", 256, TRUE);
 	OutputLine(NULL, "どうか、犠牲者が一番少なくて済む方法を選択してください。",
 		   NULL, " La prego di fare qualsiasi sforzo per evitare un maggior numero di vittime.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/282100017", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6015", 256, TRUE);
 	OutputLine(NULL, "…二千人がどうしても治療できないなら、……不必要な犠牲者が出ないよう、迅速な対応をお願いいたします。」",
 		   NULL, " Se davvero quelle duemila persone sono ormai incurabili, allora faccia ciò che ritiene migliore per evitare ulteriori perdite di vite umane.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Generale della Difesa</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/283000046", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6042", 256, TRUE);
 	OutputLine(NULL, "「はい！",
 		   NULL, "\"Sissignore!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000047", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6043", 256, TRUE);
 	OutputLine(NULL, "　ご決裁を感謝いたします！",
 		   NULL, " Grazie per la sua approvazione!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/283000048", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7j6044", 256, TRUE);
 	OutputLine(NULL, "　必ずや朗報をお持ちいたします！」",
 		   NULL, " Torneremo con risultati più che soddisfacenti!\"", Line_Normal);
 	ClearMessage();
@@ -1431,43 +1434,43 @@ void main()
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100018", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6016", 256, TRUE);
 	OutputLine(NULL, "「…………二千人の犠牲が朗報と呼べるならですがね。",
 		   NULL, "\"......... non so se duemila vittime siano un risultato soddisfacente.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100019", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6017", 256, TRUE);
 	OutputLine(NULL, "…奥野くん。",
 		   NULL, " Okuno-kun...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100020", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6018", 256, TRUE);
 	OutputLine(NULL, "東京の皆さんに近日中にお会いできる席を設けてください。",
 		   NULL, " organizzami una riunione con 'Tokyo' il prima possibile.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100021", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6019", 256, TRUE);
 	OutputLine(NULL, "今回の件について、釈明を直接聞かせていただきたいと思います。」",
 		   NULL, " Stavolta ho bisogno di ascoltare una spiegazione direttamente da loro.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900027", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6028", 256, TRUE);
 	OutputLine(NULL, "「…わかりました。」",
 		   NULL, "\"... come desidera.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282100022", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6020", 256, TRUE);
 	OutputLine(NULL, "「ところで、その問題の研究所長の入江氏は逮捕しましたか。」",
 		   NULL, "\"A proposito, la polizia ha già arrestato quell'Irie, il direttore dell'Istituto?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Caposegretario</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900028", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6029", 256, TRUE);
 	OutputLine(NULL, "「いえ、服毒自殺とのことです。",
 		   NULL, "\"No, si è suicidato con del veleno.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/282900029", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6030", 256, TRUE);
 	OutputLine(NULL, "研究の終了が自身の人生を否定されたものと悲観しての発作的犯行と思われていますが、…何が目的だったやら。」",
 		   NULL, " Era talmente fuori di sé dopo aver scoperto che la sua ricerca sarebbe stata interrotta... che deve essersi sentito minacciato in prima persona.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primo Ministro</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/282100023", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7k6021", 256, TRUE);
 	OutputLine(NULL, "「………彼を狂気に駆り立てた理由は永遠に闇の中ということですか。」",
 		   NULL, "\"...... nessuno saprà mai la verità dietro il suo gesto estremo.\"", Line_Normal);
 	ClearMessage();
@@ -1600,35 +1603,35 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/00007591", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7l6000", 256, TRUE);
 	OutputLine(NULL, "「…何で兵隊さんは災害なのに鉄砲持ってきとるんしゃあ。」",
 		   NULL, "\"... a cosa servono le armi in queste circostanze?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forceb28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6000", 256, TRUE);
 	OutputLine(NULL, "「皆さんが避難した後の家屋を守るためです。",
 		   NULL, "\"Torneranno utili per proteggere le vostre case dopo l'evacuazione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceb28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6001", 256, TRUE);
 	OutputLine(NULL, "また、災害に便乗して商店を襲撃する暴徒に対してです。」",
 		   NULL, " È probabile che verranno prese di mira dagli sciacalli.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/00007594", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7l6001", 256, TRUE);
 	OutputLine(NULL, "「………雛見沢にそんな輩はおらんのしゃ…。」",
 		   NULL, "\"...... non verrebbe mai nessuno qui a Hinamizawa...\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcec28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6002", 256, TRUE);
 	OutputLine(NULL, "「第１小隊、避難誘導順調。",
 		   NULL, "\"Qui Plotone 1, l'evacuazione procede a buon ritmo...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcec28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6003", 256, TRUE);
 	OutputLine(NULL, "……了解！",
 		   NULL, " ricevuto!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcec28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6004", 256, TRUE);
 	OutputLine(NULL, "　一個分隊を応援に向わせます。」",
 		   NULL, " Invieremo il nostro plotone verso di voi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1640,100 +1643,100 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forced28001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6005", 256, TRUE);
 	OutputLine(NULL, "「位牌は構いません！",
 		   NULL, "\"Una sola lapide va bene!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forced28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6006", 256, TRUE);
 	OutputLine(NULL, "　急いでください！！",
 		   NULL, " Sbrigatevi!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forced28003", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6007", 256, TRUE);
 	OutputLine(NULL, "　町会の方は点呼を怠らないように！！",
 		   NULL, " Fate in modo che ci siano tutti gli abitanti!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forced28004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6008", 256, TRUE);
 	OutputLine(NULL, "　歩行困難な方は申し出てください。",
 		   NULL, " Fate presente se non riuscite a camminare.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forced28005", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6009", 256, TRUE);
 	OutputLine(NULL, "隊員が補助します！」",
 		   NULL, " Verrà qualcuno ad aiutarvi!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldb28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7m6000", 256, TRUE);
 	OutputLine(NULL, "「おおぉぉ、梨花ちゃまが殺されたからオヤシロさまがお怒りになったのじゃ…。」",
 		   NULL, "\"Ooohhh, la morte di Rika-chama ha fatto infuriare Oyashiro-sama...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldc28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7l6002", 256, TRUE);
 	OutputLine(NULL, "「オヤシロさまオヤシロさまオヤシロさま…、どうか怒りをお鎮めください…。」",
 		   NULL, "\"Oyashiro-sama... Oyashiro-sama... placa la tua rabbia...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldd28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6000", 256, TRUE);
 	OutputLine(NULL, "「防災訓練どおりに避難すちゃれー！",
 		   NULL, "\"Ricordate le esercitazioni!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/eldd28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6001", 256, TRUE);
 	OutputLine(NULL, "　班長は点呼終わったら町会役員に連絡せんかいねー！」",
 		   NULL, " Quando i gruppi saranno al completo, i capigruppi lo riferiscano al membro del consiglio cittadino a loro assegnato!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/elde28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7m6001", 256, TRUE);
 	OutputLine(NULL, "「鬼ヶ淵から瘴気が溢れ出したんね…。",
 		   NULL, "\"Un'aria malefica si leva dalla palude...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/elde28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7m6002", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまはお怒りだんね……。」",
 		   NULL, " Oyashiro-sama sarà implacabile...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldf28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7n6000", 256, TRUE);
 	OutputLine(NULL, "「こんなに大勢いるんじゃ、助かる方法なんかなかとよぉ。",
 		   NULL, "\"Siamo troppi! Non riusciremo mai a scamparla!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/eldf28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7n6001", 256, TRUE);
 	OutputLine(NULL, "村で死なせてくれなぁ！」",
 		   NULL, " Lasciatemi morire qui!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcee28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6010", 256, TRUE);
 	OutputLine(NULL, "「大丈夫です。",
 		   NULL, "\"Non ha niente da temere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcee28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6011", 256, TRUE);
 	OutputLine(NULL, "輸送ヘリと防ガス仕様のバスが回されます。",
 		   NULL, " Ci sono elicotteri e navette pronte a portarvi tutti in salvo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcee28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6012", 256, TRUE);
 	OutputLine(NULL, "必ず助かりますから！」",
 		   NULL, " Ve la caverete senza un graffio!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Uomo</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/mana28014", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6002", 256, TRUE);
 	OutputLine(NULL, "「みんな営林署へ集まれぇぇ！！",
 		   NULL, "\"Andate tutti all'ufficio della Guardia Forestale!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/mana28015", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6003", 256, TRUE);
 	OutputLine(NULL, "　４丁目は違うだろ、郵便局裏の公民館だぞ！！」",
 		   NULL, " Ma non quelli del distretto 4! Loro devono andare al luogo di ritrovo dietro all'ufficio postale!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6013", 256, TRUE);
 	OutputLine(NULL, "「皆さん、防災訓練と同じです。",
 		   NULL, "\"È proprio come durante le esercitazioni.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6014", 256, TRUE);
 	OutputLine(NULL, "落ち着いて災害時避難場所に集合してください。",
 		   NULL, " Calmatevi e dirigetevi verso i punti di estrazione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6015", 256, TRUE);
 	OutputLine(NULL, "団体行動をお願いします。",
 		   NULL, " Rimanete tutti uniti.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6016", 256, TRUE);
 	OutputLine(NULL, "一人の乱れが全体の足を引きます！",
 		   NULL, " Un solo passo falso influirà su tutto il gruppo!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28005", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6017", 256, TRUE);
 	OutputLine(NULL, "　どうか団体行動を！",
 		   NULL, " Siate compatti!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcef28006", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6018", 256, TRUE);
 	OutputLine(NULL, "　家には必ず戻れます！」",
 		   NULL, " Tornerete presto nelle vostre case!\"", Line_Normal);
 	ClearMessage();
@@ -1847,7 +1850,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldg28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7l6003", 256, TRUE);
 	OutputLine(NULL, "「………アメさんの妨害電波食らった時もこんな音がしたんね…。」",
 		   NULL, "\"...... è come quando gli americani disturbavano le nostre radio durante la guerra...\"", Line_Normal);
 	ClearMessage();
@@ -1888,22 +1891,22 @@ void main()
 	DrawSceneWithMask( "background/ygk1", "maskright", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forceh28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6019", 256, TRUE);
 	OutputLine(NULL, "「万一のガス流に備えて窓は全て閉めてください。",
 		   NULL, "\"Vi preghiamo di chiudere le finestre per evitare che entri altro gas.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceh28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6020", 256, TRUE);
 	OutputLine(NULL, "念のため窓ガラスはテープで目張りします。",
 		   NULL, " A breve le sigilleremo per precauzione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceh28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6021", 256, TRUE);
 	OutputLine(NULL, "申し訳ございませんがご協力をお願いいたします！」",
 		   NULL, " Grazie per il vostro aiuto.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Uomo</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/manb28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6004", 256, TRUE);
 	OutputLine(NULL, "「よし来た！",
 		   NULL, "\"Forza!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/manb28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7o6005", 256, TRUE);
 	OutputLine(NULL, "　若いのは率先して手伝えー！！」",
 		   NULL, " Che i giovani diano una mano all'esercito!\"", Line_Normal);
 	ClearMessage();
@@ -1940,22 +1943,31 @@ void main()
 	DrawSceneWithMask( "background/ygk3", "maskright", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldh28001", 540, TRUE);
-	OutputLine(NULL, "「…ぜぇんぶ、オヤシロさまの祟りなんしゃあ、梨花ちゃま梨花ちゃま…、オヤシロさまオヤシロさま…。」",
-		   NULL, "\"... è la maledizione di Oyashiro-sama! Rika-chama... Rika-chama... Oyashiro-sama, Oyashiro-sama...\"", GetGlobalFlag(GLinemodeSp));
+	ModPlayVoiceLS(4, 0, "org/mob7l6004", 256, TRUE);
+	OutputLine(NULL, "「…ぜぇんぶ、",
+		   NULL, "\"... è la", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7l6005", 256, TRUE);
+	OutputLine(NULL, "オヤシロさまの祟りなんしゃあ、",
+		   NULL, " maledizione di Oyashiro-sama!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7l6006", 256, TRUE);
+	OutputLine(NULL, "梨花ちゃま梨花ちゃま…、",
+		   NULL, " Rika-chama... Rika-chama...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7l6007", 256, TRUE);
+	OutputLine(NULL, "オヤシロさまオヤシロさま…。」",
+		   NULL, " Oyashiro-sama, Oyashiro-sama...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldi28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7m6003", 256, TRUE);
 	OutputLine(NULL, "「やっぱり、古手神社の鬼隠しはオヤシロさまのお怒りの先触れだったんだ。」",
 		   NULL, "\"I demoni di Oyashiro-sama hanno rapito quei ragazzini al santuario Furude per placare la sua furia...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Anziano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/eldj28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7n6002", 256, TRUE);
 	OutputLine(NULL, "「あの日、古手神社は鬼の国に飲み込まれたんよ…。",
 		   NULL, "\"Ieri il santuario è stato inghiottito dal regno dei demoni...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/eldj28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7n6003", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃまは鬼たちに腸を食らわれたんじゃ…。」",
 		   NULL, " hanno pasteggiato con le sue carni mentre era ancora viva...\"", Line_Normal);
 	ClearMessage();
@@ -2103,13 +2115,13 @@ void main()
 	ModPlayBGM( 0, "T1_Requiem", 56, 0, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcej28001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6000", 256, TRUE);
 	OutputLine(NULL, "「………中隊長より全隊員へ。",
 		   NULL, "\"... qui è il capitano.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcej28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6001", 256, TRUE);
 	OutputLine(NULL, "………彼らのために１分間の黙祷を捧げよう。",
 		   NULL, " È stato chiesto un minuto di silenzio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcej28003", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6002", 256, TRUE);
 	OutputLine(NULL, "三佐、１分だけご許可を。」",
 		   NULL, " Maggiore, possiamo concederglielo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2133,19 +2145,19 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6003", 256, TRUE);
 	OutputLine(NULL, "「…………天に召します我らの父よ。",
 		   NULL, "\"......... Padre, che sei nei cieli.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28005", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6004", 256, TRUE);
 	OutputLine(NULL, "罪無き彼らをどうかお導きください。",
 		   NULL, " Guida a Te queste persone innocenti.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28006", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6005", 256, TRUE);
 	OutputLine(NULL, "彼らの尊き犠牲がそれ以上の犠牲を防ぐことをどうか報いてください。",
 		   NULL, " Possa il loro sacrificio essere la salvezza di molti altri.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28007", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6006", 256, TRUE);
 	OutputLine(NULL, "そして願わくば罪深き我らをお赦しください。",
 		   NULL, " Perdonaci per il peccato che stiamo per compiere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28008", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6007", 256, TRUE);
 	OutputLine(NULL, "我らが今日ここに在ることをお赦しください…。」",
 		   NULL, " Perdonaci per aver scelto di essere qui oggi...\"", Line_Normal);
 	ClearMessage();
@@ -2308,7 +2320,7 @@ void main()
 	FadeBustshotWithFiltering( 2, "maskleft" , 1, FALSE, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcej28009", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6008", 256, TRUE);
 	OutputLine(NULL, "「…………以上で、黙祷を終了する。」",
 		   NULL, "\"...... il minuto di silenzio è terminato.\"", Line_Normal);
 	ClearMessage();
@@ -2319,7 +2331,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcej28010", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6009", 256, TRUE);
 	OutputLine(NULL, "「全小隊、滅菌を開始せよ。」",
 		   NULL, "\"A tutti gli uomini, liberate il gas.\"", Line_Normal);
 	ClearMessage();
@@ -2602,10 +2614,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcem28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6010", 256, TRUE);
 	OutputLine(NULL, "「発砲許可！！",
 		   NULL, "\"Potete sparare!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcem28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6011", 256, TRUE);
 	OutputLine(NULL, "　撃て撃て撃て撃て撃て撃てッ！！！」",
 		   NULL, " Fuoco, fuoco, fuocoo!!!\"", Line_Normal);
 	ClearMessage();
@@ -2912,28 +2924,31 @@ void main()
 	DrawScene( "background/yg2", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcen28001", 256, TRUE);
-	OutputLine(NULL, "「どうした！　反撃されたか！",
-		   NULL, "\"Cos'è successo?! Qualcuno ha risposto al fuoco?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcen28003", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6012", 256, TRUE);
+	OutputLine(NULL, "「どうした！",
+		   NULL, "\"Cos'è successo?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7t6013", 256, TRUE);
+	OutputLine(NULL, "　反撃されたか！",
+		   NULL, " Qualcuno ha risposto al fuoco?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7t6014", 256, TRUE);
 	OutputLine(NULL, "　応答しろ！！」",
 		   NULL, " Rispondete!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceo28001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6022", 256, TRUE);
 	OutputLine(NULL, "「脱走者は全員射殺。",
 		   NULL, "\"Abbiamo ucciso tutti i fuggiaschi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceo28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6023", 256, TRUE);
 	OutputLine(NULL, "銃声は駐在警官が反撃したものです。」",
 		   NULL, " L'agente di polizia locale ha provato a difendersi.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcep28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6015", 256, TRUE);
 	OutputLine(NULL, "「射殺体を回収しろ。",
 		   NULL, "\"Occupatevi dei corpi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcep28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6016", 256, TRUE);
 	OutputLine(NULL, "一般犠牲者と一緒にしないよう注意せよ。」",
 		   NULL, " Non metteteli insieme agli altri.\"", Line_Normal);
 	ClearMessage();
@@ -2968,65 +2983,65 @@ void main()
 	ModPlayBGM( 1, "suzu", 56, 0, 1 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forceq28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6024", 256, TRUE);
 	OutputLine(NULL, "「第１小隊より本部。",
 		   NULL, "\"Qui Plotone 1.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceq28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6025", 256, TRUE);
 	OutputLine(NULL, "営林署の滅菌を終了。",
 		   NULL, " L'ufficio della Guardia Forestale è stato sterilizzato.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceq28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7p6026", 256, TRUE);
 	OutputLine(NULL, "脱走者４名は射殺。」",
 		   NULL, " Quattro fuggitivi. Li abbiamo abbattuti.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcer28001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7q6000", 256, TRUE);
 	OutputLine(NULL, "「第２小隊より本部。",
 		   NULL, "\"Qui Plotone 2.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcer28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7q6001", 256, TRUE);
 	OutputLine(NULL, "滅菌終了。",
 		   NULL, " Sterilizzazione completata.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcer28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7q6002", 256, TRUE);
 	OutputLine(NULL, "脱走者なし。」",
 		   NULL, " Nessuna fuga.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forces28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6000", 256, TRUE);
 	OutputLine(NULL, "「第３小隊より本部。",
 		   NULL, "\"Qui Plotone 3.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forces28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6001", 256, TRUE);
 	OutputLine(NULL, "脱走者１０名以上。",
 		   NULL, " Sono scappati in più di dieci.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forces28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6002", 256, TRUE);
 	OutputLine(NULL, "現在掃討中。",
 		   NULL, " Stiamo cercando di recuperarli.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forces28004", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6003", 256, TRUE);
 	OutputLine(NULL, "制圧は時間の問題。」",
 		   NULL, " Presto avremo finito.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forcet28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7s6000", 256, TRUE);
 	OutputLine(NULL, "「第４小隊より本部。",
 		   NULL, "\"Qui Plotone 4.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcet28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7s6001", 256, TRUE);
 	OutputLine(NULL, "滅菌終了。",
 		   NULL, " Sterilizzazione completata.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forcet28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7s6002", 256, TRUE);
 	OutputLine(NULL, "脱走者なし。」",
 		   NULL, " Nessuna fuga.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/forceu28001", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6004", 256, TRUE);
 	OutputLine(NULL, "「第３小隊より本部。",
 		   NULL, "\"Qui Plotone 3.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceu28002", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6005", 256, TRUE);
 	OutputLine(NULL, "脱走者１３名全員の射殺を確認。",
 		   NULL, " Abbiamo preso tutti e tredici i fuggitivi.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/forceu28003", 540, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7r6006", 256, TRUE);
 	OutputLine(NULL, "全員の滅菌を終了。」",
 		   NULL, " Sterilizzazione completata.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -3101,10 +3116,10 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Soldato</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcew28001", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6017", 256, TRUE);
 	OutputLine(NULL, "「三佐、滅菌の完全終了を確認。",
 		   NULL, "\"Maggiore, abbiamo terminato la sterilizzazione.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcew28002", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7t6018", 256, TRUE);
 	OutputLine(NULL, "通信妨害を終了しますがよろしいですか。」",
 		   NULL, " Iniziamo a ricollegare la linea telefonica.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

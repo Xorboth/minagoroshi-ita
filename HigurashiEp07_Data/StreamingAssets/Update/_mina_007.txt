@@ -459,7 +459,7 @@ void main()
 	ModDrawCharacter(0, 10, "sprite/iri2_majime_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000108", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6012", 256, TRUE);
 	OutputLine(NULL, "「……沙都子ちゃんのように、一度でもＬ５に至った場合、幻覚症状の再現、いわゆるフラッシュバックに近い現象が起こりやすくなります。",
 		   NULL, "\"... una volta che un paziente raggiunge lo stato L5, come Satoko-chan, quest'ultimo inizia a soffrire di allucinazioni simili a quelle di chi è affetto da sindrome post-traumatica.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -476,32 +476,30 @@ void main()
 	ModDrawCharacter(1, 9, "sprite/ta2_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900156", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6055", 256, TRUE);
 	OutputLine(NULL, "「つまり一言で言えば心的外傷のことよ。",
 		   NULL, "\"In parole povere, si tratta di un trauma emotivo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900157", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6056", 256, TRUE);
 	OutputLine(NULL, "しかも、前頭葉に直接ダメージを受けていることが考えられるので、一般的な心的外傷よりもずっと繊細なカウンセリングと長期の投薬が必要でしょう。」",
 		   NULL, " In più, riteniamo che abbia subìto dei danni al lobo frontale, motivo per cui necessita di una terapia a termine più longeva rispetto a quella dei normali pazienti vittime di traumi.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 8, "ps2/08/180800074", 540, TRUE);
+	ModPlayVoiceLS(4, 8, "org/tomitake6012", 256, TRUE);
 	OutputLine(NULL, "「病気は治療できても、心の傷は治せない、",
-		   NULL, "\"Mi state dicendo che...", Line_Continue);
-	// (backup) SetValidityOfInput( FALSE );
-	Wait( 4800 );
-	// (backup) SetValidityOfInput( TRUE );
+		   NULL, "\"Mi state dicendo che...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "org/tomitake6013", 256, TRUE);
 	OutputLine(NULL, "…ということかい。」",
 		   NULL, " possiamo anche curarla nel corpo, ma non nella mente?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 9, "ps2/09/180900158", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6057", 256, TRUE);
 	OutputLine(NULL, "「………心的外傷に苦しむ人は社会にも大勢いる。",
 		   NULL, "\"... sono molte le persone che si sono reintegrate nella società dopo un trauma emtotivo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 9, "ps2/09/180900159", 540, TRUE);
+	ModPlayVoiceLS(4, 9, "org/takano6058", 256, TRUE);
 	OutputLine(NULL, "その中の一人に混じれるだけでも、かつての沙都子ちゃんの症状を思えば、奇跡的な回復なんだしね…。」",
 		   NULL, " Sebbene Satoko-chan sia come tanti altri, ha del miracoloso il fatto che si sia ripresa dalle condizioni in cui versava...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -510,10 +508,10 @@ void main()
 	ModDrawCharacter(0, 10, "sprite/iri2_def2_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 10, "ps2/10/181000111", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6015", 256, TRUE);
 	OutputLine(NULL, "「糖尿病などと同じに考えてください。",
 		   NULL, "\"Pensate ai diabetici.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 10, "ps2/10/181000112", 540, TRUE);
+	ModPlayVoiceLS(4, 10, "org/irie6016", 256, TRUE);
 	OutputLine(NULL, "不治の病ではあっても、症状を抑えて元気に生活されている方も大勢います。」",
 		   NULL, " Nessuno ha ancora trovato una cura, ma in molti sopravvivono tenendo sott'occhio alcuni comportamenti.\"", Line_Normal);
 	ClearMessage();

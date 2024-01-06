@@ -181,10 +181,10 @@ void main()
 		   NULL, "\"È spaventosa con chi non è educato.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500391", 256, TRUE);
 	OutputLine(NULL, "あと、敬語の使い方が間違ってる人にも怖いのですよ？",
-		   NULL, "E è spaventosa con anche con chi sbaglia il keigo.", Line_WaitForInput);
+		   NULL, " Ed è spaventosa anche con chi sbaglia il keigo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500392", 256, TRUE);
 	OutputLine(NULL, "　にぱ〜☆」",
-		   NULL, " Nipah~☆\" [Linguaggio molto formale utilizzato con i superiori.]", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\" [Linguaggio formale utilizzato con i superiori.]", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4230,14 +4230,17 @@ void main()
 		   NULL, "Una volta lontani, vedo un furgoncino bianco con due uomini che inizia a seguirci.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯</color>", NULL, "<color=#f5e6d3>Usignolo</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "org/mob7b6000", 256, TRUE);
 	OutputLine(NULL, "『鶯より白鷺、Ｒは安全圏へ脱出。",
 		   NULL, "\"Usignolo ad Airone: R sta tornando al nido.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob7b6001", 256, TRUE);
 	OutputLine(NULL, "引き続き警護されたし。』",
 		   NULL, " Continuiamo a sorvegliarla.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>白鷺</color>", NULL, "<color=#f5e6d3>Airone</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "org/mob7c6000", 256, TRUE);
 	OutputLine(NULL, "『白鷺了解。』",
 		   NULL, "\"Qui Airone, ricevuto.\"", Line_Normal);
 	ClearMessage();

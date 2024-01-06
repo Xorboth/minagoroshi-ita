@@ -1317,7 +1317,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石は鬼ヶ淵死守同盟を先導する園崎本家を間近に見ており、全ての黒幕が園崎本家に違いないと確信していた。",
-		   NULL, "Egli aveva visto come la famiglia Sonozaki avesse preso il controllo dei Guardiani di Onigafuchi, e perciò credeva che fossero loro a tirare le fila dietro all'intera faccenda.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Egli aveva visto come la famiglia Sonozaki avesse preso il controllo dei Guardiani di Onigafuchi, e perciò credeva che fossero loro a muovere i fili dietro all'intera faccenda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

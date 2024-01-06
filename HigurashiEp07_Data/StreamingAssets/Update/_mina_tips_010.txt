@@ -55,7 +55,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442900003", 256, TRUE);
 	OutputLine(NULL, "「はい、申し訳ございません…。とにかく、裏に村がいないとわかれば安心です。」",
-		   NULL, "\"Sì, mi rincresce... almeno per questa volta non c'è nessuno a tirare le fila...\"", Line_Normal);
+		   NULL, "\"Sì, mi rincresce... almeno per questa volta non c'è nessuno a muovere i fili...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Capo</color>", NULL, Line_ContinueAfterTyping); }
